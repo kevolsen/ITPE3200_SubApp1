@@ -1,0 +1,74 @@
+2024-11-08 19:49:15.588 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-08 19:49:15.698 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-08 19:49:15.700 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-08 19:49:15.700 +01:00 [INF] Hosting environment: Development
+2024-11-08 19:49:15.700 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1
+2024-11-08 19:49:17.981 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-08 19:49:17.986 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-08 19:49:18.001 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 19:49:18.011 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 19:49:19.827 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-08 19:49:19.999 +01:00 [INF] Executed ViewResult - view Index executed in 1984.8276ms.
+2024-11-08 19:49:20.001 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1988.9468ms
+2024-11-08 19:49:20.001 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 19:49:20.002 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 2021.8656ms
+2024-11-08 19:49:20.009 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-08 19:49:20.009 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - null null
+2024-11-08 19:49:20.009 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-08 19:49:20.010 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-08 19:49:20.010 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-08 19:49:20.009 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-08 19:49:20.011 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.3376ms
+2024-11-08 19:49:20.011 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 1.4417ms
+2024-11-08 19:49:20.011 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-08 19:49:20.011 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-08 19:49:20.012 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-08 19:49:20.012 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-08 19:49:20.015 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-08 19:49:20.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - 200 2890 text/css 5.2657ms
+2024-11-08 19:49:20.015 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\js\site.js'
+2024-11-08 19:49:20.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 3.0459ms
+2024-11-08 19:49:20.015 +01:00 [INF] Sending file. Request path: '/SubApp1.styles.css'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\obj\Debug\net8.0\scopedcss\bundle\SubApp1.styles.css'
+2024-11-08 19:49:20.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 200 1758 text/css 5.5404ms
+2024-11-08 19:49:20.020 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-11-08 19:49:20.020 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 11.0885ms
+2024-11-08 19:49:20.025 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-11-08 19:49:20.025 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 13.1651ms
+2024-11-08 19:49:20.048 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-11-08 19:49:20.048 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 38.6343ms
+2024-11-08 19:49:22.091 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-08 19:49:22.092 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 19:49:22.093 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 19:49:22.210 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-08 19:49:22.217 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 123.5512ms
+2024-11-08 19:49:22.218 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 19:49:22.222 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Home_Profile.<ExecuteAsync>b__18_0() in C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\Views\Home\Profile.cshtml:line 33
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Home_Profile.ExecuteAsync() in C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\Views\Home\Profile.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-08 19:49:22.228 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 500 null text/html; charset=utf-8 137.1086ms

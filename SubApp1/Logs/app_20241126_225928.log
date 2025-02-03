@@ -1,0 +1,140 @@
+2024-11-26 22:59:28.392 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 22:59:28.565 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 22:59:28.568 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 22:59:28.568 +01:00 [INF] Hosting environment: Development
+2024-11-26 22:59:28.568 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1
+2024-11-26 22:59:33.272 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 22:59:33.287 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 22:59:34.109 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 22:59:34.119 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 22:59:36.043 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 22:59:36.494 +01:00 [INF] Executed ViewResult - view Index executed in 2324.9597ms.
+2024-11-26 22:59:36.495 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 2375.0814ms
+2024-11-26 22:59:36.495 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 22:59:36.501 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 3231.8757ms
+2024-11-26 22:59:36.501 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 22:59:36.502 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-26 22:59:36.502 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-26 22:59:36.502 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 22:59:36.503 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 22:59:36.503 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-26 22:59:36.512 +01:00 [INF] Sending file. Request path: '/Images/profile_mu1fu0qy.541638682352465422474.png'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\profile_mu1fu0qy.541638682352465422474.png'
+2024-11-26 22:59:36.512 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-26 22:59:36.512 +01:00 [INF] Sending file. Request path: '/SubApp1.styles.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\obj\Debug\net8.0\scopedcss\bundle\SubApp1.styles.css'
+2024-11-26 22:59:36.513 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 200 15320 image/png 9.7612ms
+2024-11-26 22:59:36.513 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 200 2788 text/css 11.3439ms
+2024-11-26 22:59:36.513 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 200 1758 text/css 10.6217ms
+2024-11-26 22:59:36.513 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 22:59:36.513 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 22:59:36.514 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-11-26 22:59:36.514 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 12.1937ms
+2024-11-26 22:59:36.516 +01:00 [INF] Sending file. Request path: '/Images/quy2kjsl.44y638667085033516780.jpg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\quy2kjsl.44y638667085033516780.jpg'
+2024-11-26 22:59:36.516 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 200 54606 image/jpeg 2.8226ms
+2024-11-26 22:59:36.520 +01:00 [INF] Sending file. Request path: '/Images/243xe4ho.h0i638682324223715764.png'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\243xe4ho.h0i638682324223715764.png'
+2024-11-26 22:59:36.520 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 200 436213 image/png 6.4781ms
+2024-11-26 22:59:36.522 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-26 22:59:36.522 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-26 22:59:36.524 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 21.1329ms
+2024-11-26 22:59:36.524 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 21.7645ms
+2024-11-26 22:59:36.524 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 22:59:36.524 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 22:59:36.525 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-11-26 22:59:36.525 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 2.3031ms
+2024-11-26 22:59:36.525 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-11-26 22:59:36.525 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 2.2666ms
+2024-11-26 22:59:36.528 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-26 22:59:36.529 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\js\site.js'
+2024-11-26 22:59:36.529 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 1.0063ms
+2024-11-26 22:59:40.729 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - null null
+2024-11-26 22:59:41.149 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-26 22:59:41.333 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-26 22:59:41.342 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 22:59:41.348 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 22:59:41.780 +01:00 [INF] Executed page /Account/Manage/Index in 445.9329ms
+2024-11-26 22:59:41.780 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-26 22:59:41.780 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - 200 null text/html; charset=utf-8 1051.4012ms
+2024-11-26 22:59:41.785 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 22:59:41.785 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 22:59:41.785 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-26 22:59:41.785 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-26 22:59:41.787 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2024-11-26 22:59:41.787 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 1.4353ms
+2024-11-26 22:59:41.787 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2024-11-26 22:59:41.787 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - 200 24604 text/javascript 1.5893ms
+2024-11-26 22:59:41.788 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.7721ms
+2024-11-26 22:59:41.788 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 22:59:41.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 8.3641ms
+2024-11-26 22:59:41.794 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 22:59:44.340 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 22:59:44.343 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 22:59:44.344 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 22:59:44.588 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 22:59:44.594 +01:00 [INF] Executed ViewResult - view Profile executed in 240.1917ms.
+2024-11-26 22:59:44.594 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 249.5269ms
+2024-11-26 22:59:44.594 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 22:59:44.594 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 253.6358ms
+2024-11-26 22:59:44.598 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 22:59:44.598 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 22:59:44.600 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.9792ms
+2024-11-26 22:59:44.600 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 22:59:44.611 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 12.3003ms
+2024-11-26 22:59:44.611 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 22:59:57.238 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryPFtd0H5oNhoa9rGe 73030
+2024-11-26 22:59:57.240 +01:00 [INF] Executing endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 22:59:57.242 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller PostController (SubApp1).
+2024-11-26 22:59:57.334 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-11-26 22:59:57.334 +01:00 [INF] Executed action PostController.CreatePost (SubApp1) in 91.4442ms
+2024-11-26 22:59:57.334 +01:00 [INF] Executed endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 22:59:57.335 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Post/CreatePost - 302 0 null 96.1493ms
+2024-11-26 22:59:57.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 22:59:57.339 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 22:59:57.339 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 22:59:57.342 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 22:59:57.344 +01:00 [INF] Executed ViewResult - view Profile executed in 2.2066ms.
+2024-11-26 22:59:57.344 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 4.7377ms
+2024-11-26 22:59:57.344 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 22:59:57.344 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 7.4044ms
+2024-11-26 22:59:57.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 22:59:57.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - null null
+2024-11-26 22:59:57.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/kpynczpz.cmb638682587972582250.jpeg - null null
+2024-11-26 22:59:57.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 22:59:57.350 +01:00 [INF] Sending file. Request path: '/Images/profile_mbauyjy1.jfz638682454607465969.jpeg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\profile_mbauyjy1.jfz638682454607465969.jpeg'
+2024-11-26 22:59:57.350 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - 200 72428 image/jpeg 0.8989ms
+2024-11-26 22:59:57.352 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.3605ms
+2024-11-26 22:59:57.352 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 22:59:57.362 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 12.3075ms
+2024-11-26 22:59:57.362 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 22:59:57.366 +01:00 [INF] Sending file. Request path: '/Images/kpynczpz.cmb638682587972582250.jpeg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\kpynczpz.cmb638682587972582250.jpeg'
+2024-11-26 22:59:57.367 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/kpynczpz.cmb638682587972582250.jpeg - 200 72428 image/jpeg 17.2349ms
+2024-11-26 23:00:05.647 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Profile/EditPost?id=10 - null null
+2024-11-26 23:00:05.652 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.EditPost (SubApp1)'
+2024-11-26 23:00:05.654 +01:00 [INF] Route matched with {action = "EditPost", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditPost(Int32) on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 23:00:05.663 +01:00 [INF] Executing ViewResult, running view EditPost.
+2024-11-26 23:00:05.667 +01:00 [ERR] The view 'EditPost' was not found. Searched locations: ["/Views/Profile/EditPost.cshtml","/Views/Shared/EditPost.cshtml","/Pages/Shared/EditPost.cshtml"]
+2024-11-26 23:00:05.669 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.EditPost (SubApp1) in 15.3877ms
+2024-11-26 23:00:05.670 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.EditPost (SubApp1)'
+2024-11-26 23:00:05.679 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'EditPost' was not found. The following locations were searched:
+/Views/Profile/EditPost.cshtml
+/Views/Shared/EditPost.cshtml
+/Pages/Shared/EditPost.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-26 23:00:05.692 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Profile/EditPost?id=10 - 500 null text/html; charset=utf-8 45.0145ms

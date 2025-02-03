@@ -1,0 +1,43 @@
+2024-11-22 17:09:49.980 +01:00 [INF] User profile is available. Using 'C:\Users\Thilo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-22 17:09:50.519 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-22 17:09:50.525 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 17:09:50.527 +01:00 [INF] Hosting environment: Development
+2024-11-22 17:09:50.527 +01:00 [INF] Content root path: C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1
+2024-11-22 17:11:15.882 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-22 17:11:15.974 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 17:11:16.087 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 17:11:16.128 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 17:11:23.266 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-22 17:11:23.841 +01:00 [INF] Executed ViewResult - view Index executed in 6230.5373ms.
+2024-11-22 17:11:23.845 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 7715.3838ms
+2024-11-22 17:11:23.849 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 17:11:23.864 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 17:11:23.864 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 17:11:23.871 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 6.2593ms
+2024-11-22 17:11:23.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 7994.6227ms
+2024-11-22 17:11:23.874 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 17:11:23.875 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-22 17:11:23.875 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 6.2849ms
+2024-11-22 17:11:23.877 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 17:11:23.902 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-22 17:11:23.903 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 200 2788 text/css 27.3434ms
+2024-11-22 17:11:26.342 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-22 17:11:26.349 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-22 17:11:26.354 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 17:11:27.261 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-22 17:11:27.316 +01:00 [INF] Executed ViewResult - view Profile executed in 464.0806ms.
+2024-11-22 17:11:27.316 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 961.7545ms
+2024-11-22 17:11:27.316 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-22 17:11:27.317 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 975.121ms
+2024-11-22 17:11:27.362 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 17:11:27.362 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 17:11:27.363 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 1.2628ms
+2024-11-22 17:11:27.363 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.4447ms
+2024-11-22 17:11:27.364 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 17:11:27.364 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 17:11:27.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/crleu1db.f4x638667573705030264.png - null null
+2024-11-22 17:11:27.374 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/kl4goilz.dtn638667087453104065.jpg - null null
+2024-11-22 17:11:27.378 +01:00 [INF] Sending file. Request path: '/Images/kl4goilz.dtn638667087453104065.jpg'. Physical path: 'C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1\wwwroot\Images\kl4goilz.dtn638667087453104065.jpg'
+2024-11-22 17:11:27.379 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/kl4goilz.dtn638667087453104065.jpg - 200 118763 image/jpeg 4.0084ms
+2024-11-22 17:11:27.380 +01:00 [INF] Sending file. Request path: '/Images/crleu1db.f4x638667573705030264.png'. Physical path: 'C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1\wwwroot\Images\crleu1db.f4x638667573705030264.png'
+2024-11-22 17:11:27.384 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/crleu1db.f4x638667573705030264.png - 200 64097 image/png 15.2321ms

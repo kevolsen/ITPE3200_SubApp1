@@ -1,0 +1,256 @@
+/* Set base font size for html */
+html {
+  font-size: 14px;
+}
+
+/* Media query for screens wider than 768px */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Ensure the html element takes up the full height of the page */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Add margin to the bottom of the body to prevent content from being hidden by the footer */
+body {
+  margin-bottom: 60px;
+}
+
+/* Container styles */
+#container-full, #profile-container-right, #profile-container-left {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Navbar styles */
+#navbar-left {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+#navbar-item {
+  color: black;
+  text-decoration-line: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Post container styles */
+#container-post {
+  width: 100%;
+  margin-top: 25px;
+  background-color: #383434;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+}
+
+#container-post a {
+  text-decoration-line: none;
+  color: white;
+}
+
+/* Post header styles */
+#post-header {
+  width: 100%;
+  background-color: #100c0c;
+  border-radius: 5px 5px 0 0;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Profile picture styles */
+#profile-picture {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* Post profile picture styles */
+#post-pp {
+  display: inline-block;
+}
+
+#pp-content {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+/* Post profile styles */
+#post-profile {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Post contents styles */
+#post-contents {
+  background-color: #383434;
+  padding: 15px;
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Post image styles */
+#photo-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Post area styles */
+#post-area {
+  padding: 15px;
+}
+
+#post-textarea {
+  background-color: #383434;
+  color: white;
+  width: 90%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+  resize: none;
+  outline: none;
+  min-height: 100px;
+}
+
+#post-button {
+  border-radius: 25px;
+  background-color: #100c0c;
+  color: white;
+  padding: 5px 10px;
+  float: right;
+}
+
+/* Post interaction styles */
+#post-interaction {
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Comments section styles */
+#comments-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#comments-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#comments-section li strong {
+  margin-right: 10px;
+}
+
+#comments-section form {
+  margin-top: 10px;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff !important;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Input and textarea styles */
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #101010;
+  border-radius: 4px;
+  resize: none;
+}
+
+textarea:focus, input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Post interaction and comments section styles */
+#post-interaction, #comments-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #100f0f;
+  border: 1px solid #1c1b1b;
+  border-radius: 5px;
+}
+
+/* Comments section heading styles */
+#comments-section h4 {
+  margin-bottom: 10px;
+  color: #f2eeee;
+  font-size: 1.2em;
+}
+
+/* Post posted styles */
+#post-posted {
+  float: right;
+  text-align: right;
+  color: #d5d5d5;
+  font-size: 14px !important;
+}
+
+/* Media query for screens wider than 768px */
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  #profile-container-left {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #profile-container-right {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    float: inline-end;
+    padding-right: 2.5%;
+  }
+
+  #container-full {
+    width: 75%;
+  }
+}

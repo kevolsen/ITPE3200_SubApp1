@@ -1,0 +1,164 @@
+@using System.Security.Claims
+@model IEnumerable<SubApp1.Models.Post>
+
+@{
+    ViewData["Title"] = "Profile Page";
+}
+
+<body>
+    <div id="profile-container-left">
+        <!-- Display profile picture -->
+        <img id="profile-picture" src="@(ViewData["ProfilePicUrl"] ?? "/Images/default-profile.jpg")">
+        <div id="navbar-left">
+            <!-- Link to edit profile -->
+            <a id="navbar-item" asp-area="Identity" asp-page="/Account/Manage/Index">Edit Profile</a><br>
+        </div>
+    </div>
+
+    <div id="profile-container-right">
+        <div id="container-post">
+            <div id="post-area">
+                <!-- Form to create a new post -->
+                <form asp-action="CreatePostProfile" asp-controller="Post" method="post" enctype="multipart/form-data">
+                    <textarea id="post-textarea" name="PostContent" placeholder="Write something"></textarea>
+                    <input style="max-width:75%" type="file" id="post-image" name="PostImage" accept="image/*" />
+                    <button id="post-button" type="submit">Post</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Loop through each post in the model -->
+        @foreach (var post in Model)
+        {
+            <div id="container-post">
+                <!-- Post header containing profile picture, username, and post date -->
+                <div id="post-header">
+                    <div id="post-pp">
+                        <!-- Display user's profile picture or a default picture if null -->
+                        <img alt="Profile picture" id="pp-content" src="@(post.Users?.ProfilePic ?? "/Images/default-profile.jpg")" />
+                    </div>
+                    <div id="post-profile">
+                        <!-- Display user's username or 'Unknown User' if null -->
+                        @if (post.Users != null)
+                        {
+                            @post.Users.UserName
+                        }
+                        else
+                        {
+                            <span>Unknown User</span>
+                        }
+                    </div>
+                    <div id="post-posted">
+                        <!-- Display post creation date and time -->
+                        <span>@post.CreatedAt.ToString("MMM dd", new System.Globalization.CultureInfo("en-US"))
+                            <br>at @post.CreatedAt.ToString("HH:mm")</span>
+                    </div>
+                </div>
+
+                <!-- Post contents -->
+                <div id="post-contents">
+                    <p>@post.Content</p>
+
+                    <!-- Display post image if available -->
+                    @if (!string.IsNullOrEmpty(post.ImageUrl))
+                    {
+                        <div id="photo-parent"><img id="photo" src="@post.ImageUrl" /></div>
+                    }
+
+                    <!-- Post interaction section for adding comments -->
+                    <div id="post-interaction">
+                            @if (User?.Identity?.IsAuthenticated == true)
+                            {
+                                <!-- Form for adding a comment -->
+                                <form asp-action="AddCommentProfile" asp-controller="Comment" method="post">
+                                    <input type="hidden" name="postId" value="@post.Id" />
+                                    <textarea name="comments" placeholder="Write a comment..." required></textarea>
+                                    <button type="submit">Add Comment</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <!-- Message for unauthenticated users -->
+                                <p>You must be logged in to write a comment.</p>
+                                <p><a class="nav-link text-light" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a></p>
+                            }
+                    </div>
+
+                    <!-- Comments section -->
+                    <h4>Comments</h4>
+                    @if (post.Comments != null)
+                    {  
+                        @foreach (var comment in post.Comments)
+                        {
+                            <div id="comments-section">
+                                <div id="post-pp">
+                                    <!-- Display commenter's profile picture or a default picture if null -->
+                                    <img alt="Profile picture" id="pp-content" src="@(comment?.Users?.ProfilePic ?? "/Images/default-profile.jpg")" />
+                                </div>
+                                <b id="post-profile" style="margin-left: 0;">@comment?.Users?.UserName </b>
+                                <div id="post-posted">
+                                    <!-- Display comment creation date and time -->
+                                    <span>@comment?.CreatedAt.ToString("MMM dd", new System.Globalization.CultureInfo("en-US")) at @comment?.CreatedAt.ToString("HH:mm")</span>
+                                </div>
+                                <p>@comment?.Comments</p>
+                                @if (comment != null && User?.Identity?.IsAuthenticated == true && comment.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                                {
+                                    <!-- Button to show the edit form for the comment -->
+                                    <button type="button" id="editbtn" onclick="showEditForm(@comment.Id)">Edit</button>
+
+                                    <!-- The edit form (hidden initially) -->
+                                    <form id="edit-form-@comment.Id" style="display:none;" asp-action="EditCommentProfile" asp-controller="Comment" method="post">
+                                        <input type="hidden" name="commentId" value="@comment.Id" />
+                                        <textarea name="comments" placeholder="Edit your comment..." required>@comment?.Comments</textarea>
+                                        <button type="submit">Save Changes</button>
+                                        <p></p>
+                                    </form>
+                                }
+
+                                @if(comment != null && User?.Identity?.IsAuthenticated == true && comment.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                                {
+                                    <!-- Form for deleting the comment -->
+                                    <form asp-action="DeleteCommentProfile" asp-controller="Comment" method="post" style="display:inline;">
+                                        <input type="hidden" name="commentId" value="@comment.Id" />
+                                        <button type="submit" onclick="return confirm('Are you sure you want to delete this comment?');">Delete</button>
+                                    </form>
+                                }
+                            </div>
+                        }
+                         @if (post.Comments == null || !post.Comments.Any())
+                        {
+                        <!-- Message if there are no comments -->
+                        <div id="comments-section">
+                            <p>No comments yet.</p>
+                        </div>
+                        }
+                    }
+
+                    <!-- Form to edit the post -->
+                    <form asp-action="EditPost" asp-controller="Post" method="get" style="display:inline;">
+                        <input type="hidden" name="id" value="@post.Id" />
+                        <button type="submit" id="post-edit-button">Edit</button>
+                    </form>
+
+                    <!-- Form to delete the post -->
+                    <form asp-action="DeletePost" asp-controller="Post" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@post.Id" />
+                        <button type="submit" id="post-delete-button" onclick="return confirm('Are you sure you want to delete this post?');">Delete</button>
+                    </form>
+                </div>
+            </div>
+        }
+
+        <script>
+            // Function to show the edit form when the "Edit" button is clicked
+            function showEditForm(commentId) 
+            {
+                var form = document.getElementById('edit-form-' + commentId);
+                form.style.display = 'block'; // Show the form
+
+                var editButton = document.getElementById("editbtn");
+                editButton.style.display = 'none'; // Hide the button
+            }
+        </script>
+    </div>
+</body>

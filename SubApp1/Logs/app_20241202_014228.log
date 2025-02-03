@@ -1,0 +1,30 @@
+2024-12-02 01:42:28.686 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:42:28.777 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:42:28.779 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:42:28.779 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:42:28.779 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 01:43:33.941 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:43:33.947 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 01:43:34.264 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:43:34.270 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:43:35.593 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:43:35.838 +01:00 [INF] Executed ViewResult - view Profile executed in 1401.3149ms.
+2024-12-02 01:43:35.839 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1568.6334ms
+2024-12-02 01:43:35.839 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:43:35.842 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1901.9906ms
+2024-12-02 01:43:39.024 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - application/x-www-form-urlencoded 249
+2024-12-02 01:43:39.033 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-12-02 01:43:39.037 +01:00 [INF] Route matched with {action = "AddCommentProfile", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCommentProfile(Int32, System.String) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-12-02 01:43:39.111 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-12-02 01:43:39.111 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1) in 73.8394ms
+2024-12-02 01:43:39.111 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-12-02 01:43:39.112 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - 302 0 null 87.4076ms
+2024-12-02 01:43:39.114 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:43:39.150 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:43:39.151 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:43:39.156 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:43:39.159 +01:00 [INF] Executed ViewResult - view Profile executed in 3.0581ms.
+2024-12-02 01:43:39.159 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 8.0143ms
+2024-12-02 01:43:39.159 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:43:39.159 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 44.9915ms
+2024-12-02 01:43:40.376 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,75 @@
+2024-11-07 20:14:50.233 +01:00 [INF] User profile is available. Using 'C:\Users\Thilo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-07 20:14:50.778 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-07 20:14:50.785 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 20:14:50.786 +01:00 [INF] Hosting environment: Development
+2024-11-07 20:14:50.786 +01:00 [INF] Content root path: C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1
+2024-11-07 20:15:45.946 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-07 20:15:45.960 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-07 20:15:46.027 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-07 20:15:46.063 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-07 20:15:46.077 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 20:15:46.235 +01:00 [INF] Executed ViewResult - view Index executed in 160.3475ms.
+2024-11-07 20:15:46.244 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 180.4753ms
+2024-11-07 20:15:46.245 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-07 20:15:46.252 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 307.5768ms
+2024-11-07 20:15:46.256 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - null null
+2024-11-07 20:15:46.257 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-07 20:15:46.257 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-07 20:15:46.258 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-07 20:15:46.258 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-07 20:15:46.261 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 3.6869ms
+2024-11-07 20:15:46.261 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.6111ms
+2024-11-07 20:15:46.263 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-07 20:15:46.263 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-07 20:15:46.263 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-07 20:15:46.263 +01:00 [INF] The file /css/site.css was not modified
+2024-11-07 20:15:46.263 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-07 20:15:46.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-07 20:15:46.264 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-07 20:15:46.265 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.9736ms
+2024-11-07 20:15:46.265 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 6.585ms
+2024-11-07 20:15:46.265 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 7.0941ms
+2024-11-07 20:15:46.265 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - 304 null text/css 8.8319ms
+2024-11-07 20:15:46.269 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-07 20:15:46.269 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-07 20:15:46.269 +01:00 [INF] The file /js/site.js was not modified
+2024-11-07 20:15:46.270 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.8528ms
+2024-11-07 20:15:46.273 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-07 20:15:46.273 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 4.2947ms
+2024-11-07 20:15:46.336 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-11-07 20:15:46.353 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1\wwwroot\favicon.ico'
+2024-11-07 20:15:46.353 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 200 5430 image/x-icon 17.8258ms
+2024-11-07 20:15:55.565 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-07 20:15:55.568 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-07 20:15:55.573 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-07 20:15:55.576 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-07 20:15:55.598 +01:00 [INF] Executed ViewResult - view Profile executed in 25.3105ms.
+2024-11-07 20:15:55.599 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 25.9764ms
+2024-11-07 20:15:55.599 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-07 20:15:55.599 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 34.3902ms
+2024-11-07 20:15:55.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-07 20:15:55.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.7082ms
+2024-11-07 20:15:55.627 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-07 20:15:55.637 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-07 20:15:55.637 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.665ms
+2024-11-07 20:15:55.637 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-07 20:16:01.680 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Profile/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryUmwceV18pdoLqLMf 568
+2024-11-07 20:16:01.694 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-07 20:16:01.718 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 20:16:01.744 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Profile/CreatePost - 500 null text/html; charset=utf-8 63.8512ms
+2024-11-07 20:16:06.695 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-07 20:16:06.696 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-07 20:16:06.697 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-07 20:16:06.697 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-07 20:16:06.701 +01:00 [INF] Executed ViewResult - view Profile executed in 3.8424ms.
+2024-11-07 20:16:06.701 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 4.5297ms
+2024-11-07 20:16:06.702 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-07 20:16:06.702 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 7.1733ms

@@ -1,0 +1,163 @@
+2024-11-30 21:38:53.941 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:38:54.075 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-30 21:38:54.077 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:38:54.078 +01:00 [INF] Hosting environment: Development
+2024-11-30 21:38:54.078 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\FinalExam\CodeCraft\SubApp1
+2024-11-30 21:38:57.680 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 21:38:57.690 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-30 21:38:58.217 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:38:58.225 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:39:00.199 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:39:00.596 +01:00 [INF] Executed ViewResult - view Index executed in 2115.3376ms.
+2024-11-30 21:39:00.597 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 2371.2977ms
+2024-11-30 21:39:00.597 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:39:00.601 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-30 21:39:00.601 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-30 21:39:00.601 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:39:00.601 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:39:00.601 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - null null
+2024-11-30 21:39:00.602 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 2923.6521ms
+2024-11-30 21:39:00.603 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - null null
+2024-11-30 21:39:00.604 +01:00 [INF] The file /Images/profile_kal4u0qo.imj638685969022715672.jpg was not modified
+2024-11-30 21:39:00.604 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-30 21:39:00.604 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-30 21:39:00.604 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 3.0579ms
+2024-11-30 21:39:00.604 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - 304 null image/jpeg 2.9306ms
+2024-11-30 21:39:00.604 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 3.4174ms
+2024-11-30 21:39:00.607 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - null null
+2024-11-30 21:39:00.607 +01:00 [INF] The file /Images/ejs4zjtc.c0s.png was not modified
+2024-11-30 21:39:00.607 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - 304 null image/png 0.3478ms
+2024-11-30 21:39:00.609 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\FinalExam\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-30 21:39:00.610 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - 200 4679 text/css 6.8156ms
+2024-11-30 21:39:00.618 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 16.3678ms
+2024-11-30 21:39:00.618 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 16.3466ms
+2024-11-30 21:39:00.618 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:39:00.618 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:39:00.620 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - null null
+2024-11-30 21:39:00.621 +01:00 [INF] The file /Images/profile_zptbn0nj.mhn638685237669650945.png was not modified
+2024-11-30 21:39:00.621 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - 304 null image/png 0.4668ms
+2024-11-30 21:39:00.622 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-30 21:39:00.622 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-11-30 21:39:00.622 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.4366ms
+2024-11-30 21:39:00.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-30 21:39:00.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-30 21:39:00.626 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-11-30 21:39:00.626 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-30 21:39:00.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 0.38ms
+2024-11-30 21:39:00.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.1974ms
+2024-11-30 21:39:00.628 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-30 21:39:00.628 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-30 21:39:00.628 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-30 21:39:00.628 +01:00 [INF] The file /js/site.js was not modified
+2024-11-30 21:39:00.628 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-30 21:39:00.628 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-30 21:39:00.628 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.4025ms
+2024-11-30 21:39:00.628 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.4024ms
+2024-11-30 21:39:00.628 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.4256ms
+2024-11-30 21:39:33.054 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/AddCommentIndex - application/x-www-form-urlencoded 249
+2024-11-30 21:39:33.112 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.AddCommentIndex (SubApp1)'
+2024-11-30 21:39:33.121 +01:00 [INF] Route matched with {action = "AddCommentIndex", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCommentIndex(Int32, System.String) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-11-30 21:39:33.232 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-30 21:39:33.232 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.AddCommentIndex (SubApp1) in 110.8951ms
+2024-11-30 21:39:33.232 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.AddCommentIndex (SubApp1)'
+2024-11-30 21:39:33.232 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/AddCommentIndex - 302 0 null 178.1304ms
+2024-11-30 21:39:33.235 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 21:39:33.237 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:39:33.238 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:39:33.244 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:39:33.249 +01:00 [INF] Executed ViewResult - view Index executed in 4.9128ms.
+2024-11-30 21:39:33.249 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 10.9661ms
+2024-11-30 21:39:33.249 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:39:33.249 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 14.0187ms
+2024-11-30 21:39:33.254 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:39:33.254 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - null null
+2024-11-30 21:39:33.254 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:39:33.255 +01:00 [INF] The file /css/site.css was not modified
+2024-11-30 21:39:33.255 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - 304 null text/css 0.6169ms
+2024-11-30 21:39:33.257 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.4364ms
+2024-11-30 21:39:33.257 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:39:33.259 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 4.7028ms
+2024-11-30 21:39:33.259 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:41:06.537 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentIndex - application/x-www-form-urlencoded 238
+2024-11-30 21:41:06.542 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1)'
+2024-11-30 21:41:06.545 +01:00 [INF] Route matched with {action = "DeleteCommentIndex", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommentIndex(Int32) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-11-30 21:41:06.583 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-30 21:41:06.583 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1) in 38.1799ms
+2024-11-30 21:41:06.583 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1)'
+2024-11-30 21:41:06.583 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentIndex - 302 0 null 46.0498ms
+2024-11-30 21:41:06.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 21:41:06.588 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:41:06.589 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:41:06.591 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:41:06.594 +01:00 [INF] Executed ViewResult - view Index executed in 3.2929ms.
+2024-11-30 21:41:06.594 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 5.5925ms
+2024-11-30 21:41:06.594 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:41:06.594 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 8.1991ms
+2024-11-30 21:41:06.600 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:41:06.600 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:41:06.600 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - null null
+2024-11-30 21:41:06.600 +01:00 [INF] The file /css/site.css was not modified
+2024-11-30 21:41:06.600 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - 304 null text/css 0.3733ms
+2024-11-30 21:41:06.602 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.092ms
+2024-11-30 21:41:06.602 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.0919ms
+2024-11-30 21:41:06.602 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:41:06.602 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:41:12.914 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentIndex - application/x-www-form-urlencoded 238
+2024-11-30 21:41:12.915 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1)'
+2024-11-30 21:41:12.915 +01:00 [INF] Route matched with {action = "DeleteCommentIndex", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommentIndex(Int32) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-11-30 21:41:12.922 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-30 21:41:12.922 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1) in 6.9984ms
+2024-11-30 21:41:12.922 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.DeleteCommentIndex (SubApp1)'
+2024-11-30 21:41:12.922 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentIndex - 302 0 null 8.8694ms
+2024-11-30 21:41:12.927 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 21:41:12.930 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:41:12.930 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:41:12.933 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:41:12.935 +01:00 [INF] Executed ViewResult - view Index executed in 2.2121ms.
+2024-11-30 21:41:12.935 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 5.4003ms
+2024-11-30 21:41:12.935 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:41:12.935 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 8.6652ms
+2024-11-30 21:41:12.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:41:12.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:41:12.945 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.988ms
+2024-11-30 21:41:12.945 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:41:12.953 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 9.7765ms
+2024-11-30 21:41:12.953 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:45:30.147 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-30 21:45:30.150 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 21:45:30.151 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:45:30.452 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-30 21:45:30.459 +01:00 [INF] Executed ViewResult - view Profile executed in 273.5355ms.
+2024-11-30 21:45:30.459 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 307.6712ms
+2024-11-30 21:45:30.459 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 21:45:30.459 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 312.3453ms
+2024-11-30 21:45:30.465 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-30 21:45:30.465 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - null null
+2024-11-30 21:45:30.465 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-30 21:45:30.465 +01:00 [INF] The file /css/site.css was not modified
+2024-11-30 21:45:30.465 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=w24_3Hd8qsqyPWGtr1u8OOdNCoh9BbHEgx69l-V08qY - 304 null text/css 0.399ms
+2024-11-30 21:45:30.465 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 0.4014ms
+2024-11-30 21:45:30.466 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:45:30.466 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-30 21:45:30.466 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:45:30.466 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - null null
+2024-11-30 21:45:30.466 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-30 21:45:30.466 +01:00 [INF] The file /Images/profile_kal4u0qo.imj638685969022715672.jpg was not modified
+2024-11-30 21:45:30.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 0.2266ms
+2024-11-30 21:45:30.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - 304 null image/jpeg 0.2087ms
+2024-11-30 21:45:30.467 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - null null
+2024-11-30 21:45:30.467 +01:00 [INF] The file /Images/ejs4zjtc.c0s.png was not modified
+2024-11-30 21:45:30.467 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - 304 null image/png 0.1942ms
+2024-11-30 21:45:30.467 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.6126ms
+2024-11-30 21:45:30.467 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:45:30.468 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 1.9794ms
+2024-11-30 21:45:30.468 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:45:30.475 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-30 21:45:30.475 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-30 21:45:30.475 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.3251ms
+2024-11-30 21:45:30.476 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-30 21:45:30.476 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-30 21:45:30.476 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.2577ms
+2024-11-30 21:45:30.476 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-30 21:45:30.476 +01:00 [INF] The file /js/site.js was not modified
+2024-11-30 21:45:30.477 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.1512ms

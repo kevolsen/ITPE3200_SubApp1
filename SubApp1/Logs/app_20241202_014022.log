@@ -1,0 +1,111 @@
+2024-12-02 01:40:22.660 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:40:22.750 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:40:22.752 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:40:22.752 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:40:22.752 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 01:40:23.690 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:40:23.703 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 01:40:24.022 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:40:24.028 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:40:25.338 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:40:25.556 +01:00 [INF] Executed ViewResult - view Profile executed in 1374.7176ms.
+2024-12-02 01:40:25.557 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1529.1372ms
+2024-12-02 01:40:25.557 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:40:25.560 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1871.1359ms
+2024-12-02 01:40:25.671 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-12-02 01:40:25.672 +01:00 [INF] The file /favicon.ico was not modified
+2024-12-02 01:40:25.673 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 304 null image/x-icon 1.9144ms
+2024-12-02 01:40:31.393 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - null null
+2024-12-02 01:40:31.563 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-12-02 01:40:31.644 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-12-02 01:40:31.648 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 01:40:31.663 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 01:40:31.846 +01:00 [INF] Executed page /Account/Manage/Index in 201.5511ms
+2024-12-02 01:40:31.846 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-12-02 01:40:31.846 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - 200 null text/html; charset=utf-8 452.6554ms
+2024-12-02 01:40:31.864 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-12-02 01:40:31.866 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-12-02 01:40:31.866 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2024-12-02 01:40:31.866 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2024-12-02 01:40:31.866 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 0.7978ms
+2024-12-02 01:40:31.866 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - 200 24604 text/javascript 2.457ms
+2024-12-02 01:40:33.272 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:40:33.306 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:40:33.306 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:40:33.309 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:40:33.310 +01:00 [INF] Executed ViewResult - view Profile executed in 1.029ms.
+2024-12-02 01:40:33.310 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 3.6272ms
+2024-12-02 01:40:33.310 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:40:33.310 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 38.1539ms
+2024-12-02 01:42:01.081 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:42:01.083 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:01.083 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:42:01.084 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:42:01.085 +01:00 [INF] Executed ViewResult - view Profile executed in 1.0221ms.
+2024-12-02 01:42:01.085 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 2.1518ms
+2024-12-02 01:42:01.085 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:01.085 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 3.7791ms
+2024-12-02 01:42:04.798 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Post/CreatePostProfile - multipart/form-data; boundary=----WebKitFormBoundaryKASxGiNeLO9RT7dx 606
+2024-12-02 01:42:04.799 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.PostController.CreatePostProfile (SubApp1)'
+2024-12-02 01:42:04.802 +01:00 [INF] Route matched with {action = "CreatePostProfile", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePostProfile(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller SubApp1.Controllers.PostController (SubApp1).
+2024-12-02 01:42:04.899 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-12-02 01:42:04.899 +01:00 [INF] Executed action SubApp1.Controllers.PostController.CreatePostProfile (SubApp1) in 97.1774ms
+2024-12-02 01:42:04.899 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.PostController.CreatePostProfile (SubApp1)'
+2024-12-02 01:42:04.899 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Post/CreatePostProfile - 302 0 null 101.6176ms
+2024-12-02 01:42:04.902 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:42:04.903 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:04.903 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:42:04.922 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:42:04.925 +01:00 [INF] Executed ViewResult - view Profile executed in 3.3898ms.
+2024-12-02 01:42:04.925 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 22.2859ms
+2024-12-02 01:42:04.926 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:04.926 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 23.9939ms
+2024-12-02 01:42:04.947 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 01:42:04.947 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 01:42:04.947 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 0.3103ms
+2024-12-02 01:42:07.016 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - application/x-www-form-urlencoded 249
+2024-12-02 01:42:07.017 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-12-02 01:42:07.020 +01:00 [INF] Route matched with {action = "AddCommentProfile", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCommentProfile(Int32, System.String) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-12-02 01:42:07.043 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-12-02 01:42:07.043 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1) in 23.7613ms
+2024-12-02 01:42:07.043 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-12-02 01:42:07.043 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - 302 0 null 27.4288ms
+2024-12-02 01:42:07.045 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:42:07.047 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:07.047 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:42:07.050 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:42:07.051 +01:00 [INF] Executed ViewResult - view Profile executed in 1.3697ms.
+2024-12-02 01:42:07.051 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 4.1056ms
+2024-12-02 01:42:07.051 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:07.051 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 5.9095ms
+2024-12-02 01:42:09.321 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/EditCommentProfile - application/x-www-form-urlencoded 255
+2024-12-02 01:42:09.323 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.EditCommentProfile (SubApp1)'
+2024-12-02 01:42:09.326 +01:00 [INF] Route matched with {action = "EditCommentProfile", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditCommentProfile(Int32, System.String) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-12-02 01:42:09.364 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-12-02 01:42:09.364 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.EditCommentProfile (SubApp1) in 38.5835ms
+2024-12-02 01:42:09.364 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.EditCommentProfile (SubApp1)'
+2024-12-02 01:42:09.364 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/EditCommentProfile - 302 0 null 43.5187ms
+2024-12-02 01:42:09.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:42:09.368 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:09.368 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:42:09.369 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:42:09.369 +01:00 [INF] Executed ViewResult - view Profile executed in 0.6229ms.
+2024-12-02 01:42:09.369 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1.4386ms
+2024-12-02 01:42:09.369 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:09.369 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 3.112ms
+2024-12-02 01:42:11.364 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentProfile - application/x-www-form-urlencoded 238
+2024-12-02 01:42:11.365 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.DeleteCommentProfile (SubApp1)'
+2024-12-02 01:42:11.367 +01:00 [INF] Route matched with {action = "DeleteCommentProfile", controller = "Comment", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommentProfile(Int32) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-12-02 01:42:11.377 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-12-02 01:42:11.378 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.DeleteCommentProfile (SubApp1) in 10.8406ms
+2024-12-02 01:42:11.378 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.DeleteCommentProfile (SubApp1)'
+2024-12-02 01:42:11.378 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/DeleteCommentProfile - 302 0 null 13.6457ms
+2024-12-02 01:42:11.380 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:42:11.382 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:11.382 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:42:11.383 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:42:11.383 +01:00 [INF] Executed ViewResult - view Profile executed in 0.5532ms.
+2024-12-02 01:42:11.383 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1.2917ms
+2024-12-02 01:42:11.383 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:42:11.383 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 3.168ms
+2024-12-02 01:42:26.275 +01:00 [INF] Application is shutting down...

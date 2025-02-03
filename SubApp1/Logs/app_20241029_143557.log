@@ -1,0 +1,9 @@
+2024-10-29 14:35:58.177 +01:00 [INF] User profile is available. Using 'C:\Users\Kristian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-29 14:35:58.260 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-29 14:35:58.290 +01:00 [INF] Now listening on: https://localhost:7262
+2024-10-29 14:35:58.291 +01:00 [INF] Now listening on: http://localhost:5003
+2024-10-29 14:35:58.295 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 14:35:58.297 +01:00 [INF] Hosting environment: Development
+2024-10-29 14:35:58.298 +01:00 [INF] Content root path: C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1
+2024-10-29 14:35:58.418 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-10-29 14:35:58.436 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 307 0 null 19.4383ms

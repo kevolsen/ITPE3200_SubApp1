@@ -1,0 +1,21 @@
+2024-12-02 01:32:46.328 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:32:46.415 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:32:46.417 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:32:46.417 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:32:46.417 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 01:34:45.353 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:34:45.359 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 01:34:45.673 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:34:45.679 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:34:46.980 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:34:47.207 +01:00 [INF] Executed ViewResult - view Profile executed in 1379.2561ms.
+2024-12-02 01:34:47.208 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1528.877ms
+2024-12-02 01:34:47.208 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:34:47.211 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1858.9808ms
+2024-12-02 01:34:47.225 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 01:34:47.227 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 01:34:47.227 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 2.0813ms
+2024-12-02 01:34:47.328 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-12-02 01:34:47.329 +01:00 [INF] The file /favicon.ico was not modified
+2024-12-02 01:34:47.329 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 304 null image/x-icon 0.5788ms
+2024-12-02 01:34:48.335 +01:00 [INF] Application is shutting down...

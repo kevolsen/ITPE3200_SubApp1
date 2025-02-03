@@ -1,0 +1,174 @@
+2024-12-02 02:11:02.641 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 02:11:02.724 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 02:11:02.726 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 02:11:02.726 +01:00 [INF] Hosting environment: Development
+2024-12-02 02:11:02.727 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 02:11:10.247 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:11:10.252 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 02:11:10.267 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:11:10.277 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:11:11.862 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:11:12.091 +01:00 [INF] Executed ViewResult - view Index executed in 1363.2011ms.
+2024-12-02 02:11:12.092 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1815.0602ms
+2024-12-02 02:11:12.092 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:11:12.095 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 1848.8164ms
+2024-12-02 02:11:13.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - null null
+2024-12-02 02:11:13.219 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 02:11:13.300 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 02:11:13.313 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 02:11:13.315 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 02:11:13.315 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-02 02:11:13.316 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 02:11:13.316 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 02:11:13.413 +01:00 [INF] Executed page /Account/Login in 113.4252ms
+2024-12-02 02:11:13.413 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 02:11:13.414 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - 200 null text/html; charset=utf-8 366.1995ms
+2024-12-02 02:11:13.433 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-12-02 02:11:13.434 +01:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-12-02 02:11:13.435 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 2.0927ms
+2024-12-02 02:11:13.435 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-12-02 02:11:13.436 +01:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-12-02 02:11:13.436 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 0.3243ms
+2024-12-02 02:11:14.376 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:11:14.376 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:11:14.376 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:11:14.407 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:11:14.413 +01:00 [INF] Executed ViewResult - view Index executed in 5.6161ms.
+2024-12-02 02:11:14.413 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 36.3291ms
+2024-12-02 02:11:14.413 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:11:14.413 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 37.2472ms
+2024-12-02 02:12:27.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - null null
+2024-12-02 02:12:27.056 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 02:12:27.056 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 02:12:27.058 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 02:12:27.059 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 02:12:27.059 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-02 02:12:27.059 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 02:12:27.059 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 02:12:27.060 +01:00 [INF] Executed page /Account/Login in 3.7972ms
+2024-12-02 02:12:27.060 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 02:12:27.060 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - 200 null text/html; charset=utf-8 5.481ms
+2024-12-02 02:12:27.082 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-02 02:12:27.082 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-12-02 02:12:27.082 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 0.3011ms
+2024-12-02 02:12:27.085 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-12-02 02:12:27.087 +01:00 [INF] Sending file. Request path: '/SubApp1.styles.css'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1\obj\Debug\net8.0\scopedcss\bundle\SubApp1.styles.css'
+2024-12-02 02:12:27.087 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 200 1758 text/css 2.2405ms
+2024-12-02 02:12:27.088 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-12-02 02:12:27.088 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-02 02:12:27.088 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-02 02:12:27.088 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-12-02 02:12:27.088 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-12-02 02:12:27.088 +01:00 [INF] The file /js/site.js was not modified
+2024-12-02 02:12:27.088 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.2045ms
+2024-12-02 02:12:27.088 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.509ms
+2024-12-02 02:12:27.088 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.2231ms
+2024-12-02 02:12:27.783 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Login - application/x-www-form-urlencoded 272
+2024-12-02 02:12:27.783 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 02:12:27.784 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 02:12:27.791 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-02 02:12:27.865 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-02 02:12:27.865 +01:00 [INF] User logged in.
+2024-12-02 02:12:27.865 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 02:12:27.865 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-02 02:12:27.865 +01:00 [INF] Executed page /Account/Login in 81.7082ms
+2024-12-02 02:12:27.865 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 02:12:27.865 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Login - 302 0 null 82.5407ms
+2024-12-02 02:12:27.868 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:12:27.870 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:12:27.870 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:12:27.871 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:12:27.874 +01:00 [INF] Executed ViewResult - view Index executed in 3.1638ms.
+2024-12-02 02:12:27.874 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 4.2576ms
+2024-12-02 02:12:27.874 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:12:27.874 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 6.3407ms
+2024-12-02 02:12:27.894 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - null null
+2024-12-02 02:12:27.894 +01:00 [INF] The file /Images/profile_zptbn0nj.mhn638685237669650945.png was not modified
+2024-12-02 02:12:27.894 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - 304 null image/png 0.2727ms
+2024-12-02 02:13:04.190 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:13:04.192 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:04.192 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:13:04.378 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:13:04.383 +01:00 [INF] Executed ViewResult - view Index executed in 190.2738ms.
+2024-12-02 02:13:04.383 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 191.6677ms
+2024-12-02 02:13:04.383 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:04.383 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 193.579ms
+2024-12-02 02:13:04.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 02:13:04.398 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 02:13:04.398 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 0.2631ms
+2024-12-02 02:13:06.477 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:13:06.479 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:06.479 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:13:06.481 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:13:06.481 +01:00 [INF] Executed ViewResult - view Index executed in 0.68ms.
+2024-12-02 02:13:06.481 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 2.3109ms
+2024-12-02 02:13:06.481 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:06.481 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4.5952ms
+2024-12-02 02:13:08.167 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:13:08.169 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:08.169 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:13:08.171 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:13:08.172 +01:00 [INF] Executed ViewResult - view Index executed in 0.8611ms.
+2024-12-02 02:13:08.172 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 2.3803ms
+2024-12-02 02:13:08.172 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:08.172 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4.6162ms
+2024-12-02 02:13:11.824 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - null null
+2024-12-02 02:13:11.873 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-12-02 02:13:11.875 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-12-02 02:13:11.877 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 02:13:11.877 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 02:13:11.879 +01:00 [INF] Executed page /Account/Logout in 3.7359ms
+2024-12-02 02:13:11.879 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-12-02 02:13:11.879 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - 200 null text/html; charset=utf-8 54.6333ms
+2024-12-02 02:13:13.096 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F%3Fpage%3D%252F - application/x-www-form-urlencoded 225
+2024-12-02 02:13:13.097 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-12-02 02:13:13.097 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-12-02 02:13:13.098 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-12-02 02:13:13.098 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-12-02 02:13:13.098 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 02:13:13.098 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-12-02 02:13:13.098 +01:00 [INF] User logged out.
+2024-12-02 02:13:13.098 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 02:13:13.098 +01:00 [INF] Executing LocalRedirectResult, redirecting to /?page=%2F.
+2024-12-02 02:13:13.098 +01:00 [INF] Executed page /Account/Logout in 1.561ms
+2024-12-02 02:13:13.098 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-12-02 02:13:13.099 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F%3Fpage%3D%252F - 302 0 null 3.0021ms
+2024-12-02 02:13:13.100 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/?page=%2F - null null
+2024-12-02 02:13:13.100 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:13.100 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:13:13.102 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:13:13.102 +01:00 [INF] Executed ViewResult - view Index executed in 0.6406ms.
+2024-12-02 02:13:13.102 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1.9179ms
+2024-12-02 02:13:13.102 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:13.102 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/?page=%2F - 200 null text/html; charset=utf-8 2.1152ms
+2024-12-02 02:13:17.239 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - null null
+2024-12-02 02:13:17.239 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 02:13:17.239 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 02:13:17.240 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 02:13:17.240 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 02:13:17.241 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-02 02:13:17.241 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 02:13:17.241 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 02:13:17.241 +01:00 [INF] Executed page /Account/Login in 2.0638ms
+2024-12-02 02:13:17.241 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 02:13:17.241 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - 200 null text/html; charset=utf-8 2.4682ms
+2024-12-02 02:13:18.098 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Login - application/x-www-form-urlencoded 272
+2024-12-02 02:13:18.098 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 02:13:18.098 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 02:13:18.100 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-02 02:13:18.138 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-02 02:13:18.138 +01:00 [INF] User logged in.
+2024-12-02 02:13:18.138 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 02:13:18.138 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-02 02:13:18.138 +01:00 [INF] Executed page /Account/Login in 39.6959ms
+2024-12-02 02:13:18.138 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 02:13:18.138 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Login - 302 0 null 40.1529ms
+2024-12-02 02:13:18.140 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:13:18.141 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:18.141 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:13:18.142 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:13:18.142 +01:00 [INF] Executed ViewResult - view Index executed in 0.4905ms.
+2024-12-02 02:13:18.142 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1.1133ms
+2024-12-02 02:13:18.142 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:13:18.142 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 2.2765ms
+2024-12-02 02:13:23.568 +01:00 [INF] Application is shutting down...

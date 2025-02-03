@@ -1,0 +1,50 @@
+2024-11-26 15:56:21.916 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 15:56:22.200 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 15:56:22.204 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 15:56:22.205 +01:00 [INF] Hosting environment: Development
+2024-11-26 15:56:22.206 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\github\CodeCraft\SubApp1
+2024-11-26 15:56:23.050 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 15:56:23.072 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 15:56:23.918 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 15:56:23.933 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 15:56:26.748 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 15:56:27.070 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 15:56:27.092 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 15:56:27.102 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 15:56:27.251 +01:00 [INF] Executed ViewResult - view Profile executed in 3005.0397ms.
+2024-11-26 15:56:27.253 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 3319.8106ms
+2024-11-26 15:56:27.253 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 15:56:27.260 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 4212.234ms
+2024-11-26 15:56:27.296 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 15:56:27.303 +01:00 [INF] Executed ViewResult - view Index executed in 195.4362ms.
+2024-11-26 15:56:27.303 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 200.5075ms
+2024-11-26 15:56:27.303 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 15:56:27.304 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 233.824ms
+2024-11-26 15:56:27.335 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-26 15:56:27.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-26 15:56:27.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 15:56:27.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 15:56:27.338 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 15:56:27.340 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 15:56:27.341 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-26 15:56:27.341 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-26 15:56:27.341 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 15:56:27.341 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-26 15:56:27.341 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 6.1514ms
+2024-11-26 15:56:27.341 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 4.0157ms
+2024-11-26 15:56:27.341 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.6994ms
+2024-11-26 15:56:27.341 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 4.0064ms
+2024-11-26 15:56:27.370 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-26 15:56:27.370 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-26 15:56:27.370 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.7543ms
+2024-11-26 15:56:27.373 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-26 15:56:27.374 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-26 15:56:27.374 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.9294ms
+2024-11-26 15:56:27.381 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-26 15:56:27.381 +01:00 [INF] The file /js/site.js was not modified
+2024-11-26 15:56:27.381 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.3789ms
+2024-11-26 15:56:27.423 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 85.448ms
+2024-11-26 15:56:27.423 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 85.2487ms
+2024-11-26 15:56:27.424 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 15:56:27.425 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 15:58:39.574 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,31 @@
+2024-11-08 21:31:15.272 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-08 21:31:15.397 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-08 21:31:15.400 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-08 21:31:15.401 +01:00 [INF] Hosting environment: Development
+2024-11-08 21:31:15.402 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1
+2024-11-08 21:31:15.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-08 21:31:15.478 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-08 21:31:15.493 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:31:15.508 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 21:31:17.046 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-08 21:31:17.230 +01:00 [INF] Executed ViewResult - view Index executed in 1364.5084ms.
+2024-11-08 21:31:17.231 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1722.7523ms
+2024-11-08 21:31:17.231 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:31:17.235 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 1764.8351ms
+2024-11-08 21:31:17.759 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-08 21:31:17.761 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 21:31:17.761 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 21:31:18.005 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-08 21:31:18.014 +01:00 [INF] Executed ViewResult - view Profile executed in 142.8241ms.
+2024-11-08 21:31:18.014 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 252.4584ms
+2024-11-08 21:31:18.014 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 21:31:18.014 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 255.3567ms
+2024-11-08 21:31:18.030 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-08 21:31:18.030 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=XDHUJAD6Pr_Zu4WLmNevZxkHZwHat8-SrXTtKtIdQi0 - null null
+2024-11-08 21:31:18.030 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-08 21:31:18.034 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 3.9267ms
+2024-11-08 21:31:18.034 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 3.7772ms
+2024-11-08 21:31:18.035 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-08 21:31:18.035 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-08 21:31:18.040 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'c:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-08 21:31:18.041 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=XDHUJAD6Pr_Zu4WLmNevZxkHZwHat8-SrXTtKtIdQi0 - 200 2831 text/css 10.3898ms

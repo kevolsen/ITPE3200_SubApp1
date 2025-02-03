@@ -1,0 +1,27 @@
+2024-11-26 15:37:35.524 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 15:37:35.795 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 15:37:35.800 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 15:37:35.802 +01:00 [INF] Hosting environment: Development
+2024-11-26 15:37:35.802 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\github\CodeCraft\SubApp1
+2024-11-26 15:37:37.776 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 15:37:37.796 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 15:37:38.460 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 15:37:38.473 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 15:37:40.965 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 15:37:41.420 +01:00 [INF] Executed ViewResult - view Profile executed in 2646.0181ms.
+2024-11-26 15:37:41.423 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 2949.1694ms
+2024-11-26 15:37:41.423 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 15:37:41.434 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 3659.2988ms
+2024-11-26 15:37:41.462 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 15:37:41.462 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 15:37:41.462 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 15:37:41.492 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 30.022ms
+2024-11-26 15:37:41.492 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 30.022ms
+2024-11-26 15:37:41.493 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Images/quy2kjsl.44y638667085033516780.jpg - 404 0 null 31.6467ms
+2024-11-26 15:37:41.494 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 15:37:41.494 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 15:37:41.494 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Home/Images/quy2kjsl.44y638667085033516780.jpg, Response status code: 404
+2024-11-26 15:37:46.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/                        ./Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 15:37:46.484 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/                        ./Images/quy2kjsl.44y638667085033516780.jpg - 404 0 null 87.7884ms
+2024-11-26 15:37:46.484 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Home/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20./Images/quy2kjsl.44y638667085033516780.jpg, Response status code: 404
+2024-11-26 15:38:10.355 +01:00 [INF] Application is shutting down...

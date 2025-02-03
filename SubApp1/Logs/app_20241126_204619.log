@@ -1,0 +1,278 @@
+2024-11-26 20:46:20.125 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 20:46:20.405 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 20:46:20.410 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 20:46:20.411 +01:00 [INF] Hosting environment: Development
+2024-11-26 20:46:20.411 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1
+2024-11-26 20:46:25.800 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 20:46:25.828 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 20:46:26.501 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:46:26.516 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:46:29.254 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 20:46:29.798 +01:00 [INF] Executed ViewResult - view Index executed in 2930.0205ms.
+2024-11-26 20:46:29.800 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 3282.843ms
+2024-11-26 20:46:29.800 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:46:29.805 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:46:29.806 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - null null
+2024-11-26 20:46:29.810 +01:00 [INF] The file /Images/profile_mbauyjy1.jfz638682454607465969.jpeg was not modified
+2024-11-26 20:46:29.810 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4012.3093ms
+2024-11-26 20:46:29.811 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - 304 null image/jpeg 4.7377ms
+2024-11-26 20:46:29.811 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 20:46:29.811 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:46:29.812 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 20:46:29.812 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.5963ms
+2024-11-26 20:46:29.814 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - null null
+2024-11-26 20:46:29.814 +01:00 [INF] The file /Images/gk10c2mp.h5a638682454893997338.png was not modified
+2024-11-26 20:46:29.814 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - 304 null image/png 0.3304ms
+2024-11-26 20:46:29.822 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-26 20:46:29.823 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-11-26 20:46:29.823 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.4596ms
+2024-11-26 20:46:29.829 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 20:46:29.829 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 20:46:29.829 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-11-26 20:46:29.829 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-26 20:46:29.829 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 0.3938ms
+2024-11-26 20:46:29.829 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.4749ms
+2024-11-26 20:46:29.831 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 25.8976ms
+2024-11-26 20:46:29.832 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:46:29.848 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 37.492ms
+2024-11-26 20:46:29.849 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 20:46:58.622 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundarySfHQcillZvZQxLYe 88478
+2024-11-26 20:46:58.691 +01:00 [INF] Executing endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 20:46:58.707 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller PostController (SubApp1).
+2024-11-26 20:46:58.914 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-11-26 20:46:58.915 +01:00 [INF] Executed action PostController.CreatePost (SubApp1) in 208.1664ms
+2024-11-26 20:46:58.915 +01:00 [INF] Executed endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 20:46:58.918 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Post/CreatePost - 302 0 null 296.0769ms
+2024-11-26 20:46:58.924 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:46:58.928 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:46:58.931 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:46:59.548 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:46:59.569 +01:00 [INF] Executed ViewResult - view Profile executed in 608.3855ms.
+2024-11-26 20:46:59.570 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 638.5655ms
+2024-11-26 20:46:59.570 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:46:59.570 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 646.4512ms
+2024-11-26 20:46:59.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:46:59.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:46:59.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/ce5sirlj.hpf638682508187509210.jpg - null null
+2024-11-26 20:46:59.592 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 6.3869ms
+2024-11-26 20:46:59.593 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 20:46:59.593 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 7.3789ms
+2024-11-26 20:46:59.594 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:46:59.610 +01:00 [INF] Sending file. Request path: '/Images/ce5sirlj.hpf638682508187509210.jpg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\ce5sirlj.hpf638682508187509210.jpg'
+2024-11-26 20:46:59.611 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/ce5sirlj.hpf638682508187509210.jpg - 200 87882 image/jpeg 24.2788ms
+2024-11-26 20:47:08.340 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Profile/EditPost?id=7 - null null
+2024-11-26 20:47:08.359 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.EditPost (SubApp1)'
+2024-11-26 20:47:08.363 +01:00 [INF] Route matched with {action = "EditPost", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditPost(Int32) on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:08.397 +01:00 [INF] Executing ViewResult, running view EditPost.
+2024-11-26 20:47:08.406 +01:00 [ERR] The view 'EditPost' was not found. Searched locations: ["/Views/Profile/EditPost.cshtml","/Views/Shared/EditPost.cshtml","/Pages/Shared/EditPost.cshtml"]
+2024-11-26 20:47:08.415 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.EditPost (SubApp1) in 52.1971ms
+2024-11-26 20:47:08.416 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.EditPost (SubApp1)'
+2024-11-26 20:47:08.435 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'EditPost' was not found. The following locations were searched:
+/Views/Profile/EditPost.cshtml
+/Views/Shared/EditPost.cshtml
+/Pages/Shared/EditPost.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-26 20:47:08.463 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Profile/EditPost?id=7 - 500 null text/html; charset=utf-8 123.0576ms
+2024-11-26 20:47:11.636 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:47:11.640 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:11.640 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:47:11.645 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:11.649 +01:00 [INF] Executed ViewResult - view Profile executed in 3.9329ms.
+2024-11-26 20:47:11.649 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 8.8586ms
+2024-11-26 20:47:11.649 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:11.649 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 13.1818ms
+2024-11-26 20:47:16.657 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Profile/DeletePost - application/x-www-form-urlencoded 230
+2024-11-26 20:47:16.661 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.DeletePost (SubApp1)'
+2024-11-26 20:47:16.662 +01:00 [INF] Route matched with {action = "DeletePost", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePost(Int32) on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:16.684 +01:00 [INF] Executing RedirectResult, redirecting to /Profile.
+2024-11-26 20:47:16.684 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.DeletePost (SubApp1) in 22.2248ms
+2024-11-26 20:47:16.684 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.DeletePost (SubApp1)'
+2024-11-26 20:47:16.684 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Profile/DeletePost - 302 0 null 27.7207ms
+2024-11-26 20:47:16.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Profile - null null
+2024-11-26 20:47:16.695 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:16.696 +01:00 [INF] Route matched with {action = "Index", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:16.703 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:16.704 +01:00 [ERR] The view 'Profile' was not found. Searched locations: ["/Views/Profile/Profile.cshtml","/Views/Shared/Profile.cshtml","/Pages/Shared/Profile.cshtml"]
+2024-11-26 20:47:16.704 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.Index (SubApp1) in 7.825ms
+2024-11-26 20:47:16.705 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:16.706 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Profile' was not found. The following locations were searched:
+/Views/Profile/Profile.cshtml
+/Views/Shared/Profile.cshtml
+/Pages/Shared/Profile.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-26 20:47:16.711 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Profile - 500 null text/html; charset=utf-8 22.5158ms
+2024-11-26 20:47:23.402 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Profile - null null
+2024-11-26 20:47:23.404 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:23.404 +01:00 [INF] Route matched with {action = "Index", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:23.406 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:23.406 +01:00 [ERR] The view 'Profile' was not found. Searched locations: ["/Views/Profile/Profile.cshtml","/Views/Shared/Profile.cshtml","/Pages/Shared/Profile.cshtml"]
+2024-11-26 20:47:23.407 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.Index (SubApp1) in 2.8296ms
+2024-11-26 20:47:23.407 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:23.409 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Profile' was not found. The following locations were searched:
+/Views/Profile/Profile.cshtml
+/Views/Shared/Profile.cshtml
+/Pages/Shared/Profile.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-26 20:47:23.417 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Profile - 500 null text/html; charset=utf-8 15.3935ms
+2024-11-26 20:47:26.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:47:26.050 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:26.050 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:47:26.052 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:26.054 +01:00 [INF] Executed ViewResult - view Profile executed in 2.3787ms.
+2024-11-26 20:47:26.054 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 3.8244ms
+2024-11-26 20:47:26.054 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:26.054 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 7.0346ms
+2024-11-26 20:47:37.193 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Profile/DeletePost - application/x-www-form-urlencoded 230
+2024-11-26 20:47:37.196 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.DeletePost (SubApp1)'
+2024-11-26 20:47:37.196 +01:00 [INF] Route matched with {action = "DeletePost", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePost(Int32) on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:37.217 +01:00 [INF] Executing RedirectResult, redirecting to /Profile.
+2024-11-26 20:47:37.217 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.DeletePost (SubApp1) in 20.9708ms
+2024-11-26 20:47:37.217 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.DeletePost (SubApp1)'
+2024-11-26 20:47:37.217 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Profile/DeletePost - 302 0 null 24.2857ms
+2024-11-26 20:47:37.229 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Profile - null null
+2024-11-26 20:47:37.244 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:37.244 +01:00 [INF] Route matched with {action = "Index", controller = "Profile", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-11-26 20:47:37.245 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:37.246 +01:00 [ERR] The view 'Profile' was not found. Searched locations: ["/Views/Profile/Profile.cshtml","/Views/Shared/Profile.cshtml","/Pages/Shared/Profile.cshtml"]
+2024-11-26 20:47:37.247 +01:00 [INF] Executed action SubApp1.Controllers.ProfileController.Index (SubApp1) in 2.8354ms
+2024-11-26 20:47:37.247 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.ProfileController.Index (SubApp1)'
+2024-11-26 20:47:37.249 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Profile' was not found. The following locations were searched:
+/Views/Profile/Profile.cshtml
+/Views/Shared/Profile.cshtml
+/Pages/Shared/Profile.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-26 20:47:37.253 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Profile - 500 null text/html; charset=utf-8 24.2357ms
+2024-11-26 20:47:46.672 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:47:46.674 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:46.675 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:47:46.676 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:47:46.678 +01:00 [INF] Executed ViewResult - view Profile executed in 1.9248ms.
+2024-11-26 20:47:46.678 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 3.103ms
+2024-11-26 20:47:46.678 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:47:46.678 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 5.9141ms
+2024-11-26 20:47:46.693 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 20:47:46.693 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 20:47:46.693 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.7284ms
+2024-11-26 20:47:46.712 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:47:46.714 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:47:46.717 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 5.389ms
+2024-11-26 20:47:46.717 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 20:47:46.727 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 12.8607ms
+2024-11-26 20:47:46.727 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:47:56.332 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-26 20:47:56.599 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-26 20:47:56.775 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-26 20:47:56.782 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-26 20:47:56.785 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-26 20:47:56.785 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-26 20:47:56.785 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-26 20:47:56.785 +01:00 [INF] User logged out.
+2024-11-26 20:47:56.786 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-26 20:47:56.786 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-26 20:47:56.786 +01:00 [INF] Executed page /Account/Logout in 10.5884ms
+2024-11-26 20:47:56.786 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-26 20:47:56.786 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - 302 0 null 454.5633ms
+2024-11-26 20:47:56.790 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 20:47:56.790 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:47:56.790 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:47:56.792 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 20:47:56.796 +01:00 [INF] Executed ViewResult - view Index executed in 3.78ms.
+2024-11-26 20:47:56.796 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 6.4376ms
+2024-11-26 20:47:56.796 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:47:56.796 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 6.8608ms
+2024-11-26 20:47:56.805 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:47:56.805 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.3716ms
+2024-11-26 20:47:56.806 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:47:56.814 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:47:56.815 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.3931ms
+2024-11-26 20:47:56.815 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 20:48:09.778 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryfwLNMApUzIOF2HDC 72983
+2024-11-26 20:48:09.780 +01:00 [INF] Executing endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 20:48:09.780 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller PostController (SubApp1).
+2024-11-26 20:48:09.807 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-11-26 20:48:09.808 +01:00 [INF] Executed action PostController.CreatePost (SubApp1) in 28.5363ms
+2024-11-26 20:48:09.809 +01:00 [INF] Executed endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 20:48:09.812 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Post/CreatePost - 302 0 null 33.7751ms
+2024-11-26 20:48:09.819 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:48:09.820 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:48:09.821 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:48:09.830 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2024-11-26 20:48:09.830 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 9.6306ms
+2024-11-26 20:48:09.830 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:48:09.831 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 401 0 null 11.7292ms

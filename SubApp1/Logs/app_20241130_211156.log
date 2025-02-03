@@ -1,0 +1,56 @@
+2024-11-30 21:11:56.805 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:11:57.065 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-30 21:11:57.071 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:11:57.072 +01:00 [INF] Hosting environment: Development
+2024-11-30 21:11:57.072 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\FinalExam\CodeCraft\SubApp1
+2024-11-30 21:12:00.237 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 21:12:00.307 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-30 21:12:01.172 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:12:01.187 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 21:12:04.955 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:12:05.505 +01:00 [INF] Executed ViewResult - view Index executed in 3793.976ms.
+2024-11-30 21:12:05.506 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 4318.4951ms
+2024-11-30 21:12:05.506 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 21:12:05.512 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-30 21:12:05.512 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-30 21:12:05.513 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 21:12:05.513 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 21:12:05.516 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-30 21:12:05.517 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 5293.318ms
+2024-11-30 21:12:05.518 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 5.3228ms
+2024-11-30 21:12:05.518 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-30 21:12:05.518 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - null null
+2024-11-30 21:12:05.518 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 5.4302ms
+2024-11-30 21:12:05.518 +01:00 [INF] The file /Images/profile_kal4u0qo.imj638685969022715672.jpg was not modified
+2024-11-30 21:12:05.518 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - 304 null image/jpeg 0.3302ms
+2024-11-30 21:12:05.521 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=rjJ2XJdDqZ1F6CZs_WRs6XoWqv92YqCIldVix0zthLU - null null
+2024-11-30 21:12:05.521 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - null null
+2024-11-30 21:12:05.521 +01:00 [INF] The file /Images/ejs4zjtc.c0s.png was not modified
+2024-11-30 21:12:05.521 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - 304 null image/png 0.2922ms
+2024-11-30 21:12:05.537 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\FinalExam\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-30 21:12:05.537 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=rjJ2XJdDqZ1F6CZs_WRs6XoWqv92YqCIldVix0zthLU - 200 3643 text/css 16.2917ms
+2024-11-30 21:12:05.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 27.6802ms
+2024-11-30 21:12:05.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 27.5361ms
+2024-11-30 21:12:05.541 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 21:12:05.541 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 21:12:05.542 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - null null
+2024-11-30 21:12:05.543 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-30 21:12:05.543 +01:00 [INF] The file /Images/profile_zptbn0nj.mhn638685237669650945.png was not modified
+2024-11-30 21:12:05.543 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-11-30 21:12:05.543 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png - 304 null image/png 0.4316ms
+2024-11-30 21:12:05.543 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.2687ms
+2024-11-30 21:12:05.546 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-30 21:12:05.547 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-30 21:12:05.547 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-30 21:12:05.547 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-30 21:12:05.547 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-11-30 21:12:05.547 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 0.3197ms
+2024-11-30 21:12:05.548 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 1.5009ms
+2024-11-30 21:12:05.548 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-30 21:12:05.548 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.2993ms
+2024-11-30 21:12:05.548 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-30 21:12:05.548 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-30 21:12:05.548 +01:00 [INF] The file /js/site.js was not modified
+2024-11-30 21:12:05.548 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.28ms
+2024-11-30 21:12:05.549 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-30 21:12:05.549 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 1.1496ms

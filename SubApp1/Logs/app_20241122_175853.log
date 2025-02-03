@@ -1,0 +1,24 @@
+2024-11-22 17:58:53.909 +01:00 [INF] User profile is available. Using 'C:\Users\Thilo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-22 17:58:54.371 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-22 17:58:54.378 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 17:58:54.380 +01:00 [INF] Hosting environment: Development
+2024-11-22 17:58:54.381 +01:00 [INF] Content root path: C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1
+2024-11-22 17:58:57.372 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-22 17:58:57.404 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 17:58:57.476 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 17:58:57.515 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 17:59:02.834 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-22 17:59:03.733 +01:00 [INF] Executed ViewResult - view Index executed in 4971.6351ms.
+2024-11-22 17:59:03.737 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 6221.185ms
+2024-11-22 17:59:03.738 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 17:59:03.745 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 17:59:03.750 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 5.2532ms
+2024-11-22 17:59:03.752 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 17:59:03.756 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 17:59:03.759 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 3.2265ms
+2024-11-22 17:59:03.759 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 17:59:03.760 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 6390.8947ms
+2024-11-22 17:59:07.431 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Signup - null null
+2024-11-22 17:59:07.432 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Signup - 404 0 null 1.281ms
+2024-11-22 17:59:07.433 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Signup, Response status code: 404
+2024-11-22 18:09:35.527 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,52 @@
+2024-11-26 20:37:18.260 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 20:37:18.473 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 20:37:18.476 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 20:37:18.477 +01:00 [INF] Hosting environment: Development
+2024-11-26 20:37:18.477 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1
+2024-11-26 20:37:21.886 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 20:37:21.904 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 20:37:22.911 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:37:22.920 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:37:25.380 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 20:37:25.951 +01:00 [INF] Executed ViewResult - view Index executed in 2972.7504ms.
+2024-11-26 20:37:25.953 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 3032.1948ms
+2024-11-26 20:37:25.953 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 20:37:25.960 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4075.6077ms
+2024-11-26 20:37:25.960 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:37:25.960 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - null null
+2024-11-26 20:37:25.960 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:37:25.961 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - null null
+2024-11-26 20:37:25.961 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 20:37:25.964 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 20:37:25.964 +01:00 [INF] The file /Images/gk10c2mp.h5a638682454893997338.png was not modified
+2024-11-26 20:37:25.964 +01:00 [INF] The file /Images/profile_mbauyjy1.jfz638682454607465969.jpeg was not modified
+2024-11-26 20:37:25.965 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 3.6302ms
+2024-11-26 20:37:25.965 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - 304 null image/jpeg 4.4857ms
+2024-11-26 20:37:25.965 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - 304 null image/png 4.3685ms
+2024-11-26 20:37:25.969 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-26 20:37:25.970 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-11-26 20:37:25.970 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.6138ms
+2024-11-26 20:37:25.970 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 20:37:25.971 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-11-26 20:37:25.971 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 0.3326ms
+2024-11-26 20:37:25.972 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 20:37:25.972 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-26 20:37:25.972 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.3293ms
+2024-11-26 20:37:25.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 24.9053ms
+2024-11-26 20:37:25.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 24.9053ms
+2024-11-26 20:37:25.986 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:37:25.986 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 20:37:30.846 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 20:37:30.924 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:37:30.926 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 20:37:31.242 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 20:37:31.251 +01:00 [INF] Executed ViewResult - view Profile executed in 304.9458ms.
+2024-11-26 20:37:31.251 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 325.0838ms
+2024-11-26 20:37:31.251 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 20:37:31.252 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 405.7663ms
+2024-11-26 20:37:31.258 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 20:37:31.258 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 20:37:31.261 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 3.1363ms
+2024-11-26 20:37:31.261 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 20:37:31.277 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 18.6175ms
+2024-11-26 20:37:31.277 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404

@@ -1,0 +1,32 @@
+2024-11-13 13:39:17.115 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-13 13:39:17.212 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-13 13:39:17.214 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-13 13:39:17.215 +01:00 [INF] Hosting environment: Development
+2024-11-13 13:39:17.215 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1
+2024-11-13 13:39:20.913 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-13 13:39:20.919 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-13 13:39:20.933 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-13 13:39:20.942 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-13 13:39:22.699 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-13 13:39:22.856 +01:00 [INF] Executed ViewResult - view Profile executed in 1379.4586ms.
+2024-11-13 13:39:22.857 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1914.5769ms
+2024-11-13 13:39:22.857 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-13 13:39:22.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1947.7375ms
+2024-11-13 13:39:22.870 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-13 13:39:22.871 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/crleu1db.f4x638667573705030264.png - null null
+2024-11-13 13:39:22.871 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-13 13:39:22.871 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-13 13:39:22.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.094ms
+2024-11-13 13:39:22.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 1.0862ms
+2024-11-13 13:39:22.872 +01:00 [INF] The file /Images/crleu1db.f4x638667573705030264.png was not modified
+2024-11-13 13:39:22.872 +01:00 [INF] The file /css/site.css was not modified
+2024-11-13 13:39:22.872 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-13 13:39:22.872 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-13 13:39:22.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 2.2925ms
+2024-11-13 13:39:22.872 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/crleu1db.f4x638667573705030264.png - 304 null image/png 1.7089ms
+2024-11-13 13:39:22.881 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/kl4goilz.dtn638667087453104065.jpg - null null
+2024-11-13 13:39:22.881 +01:00 [INF] The file /Images/kl4goilz.dtn638667087453104065.jpg was not modified
+2024-11-13 13:39:22.881 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/kl4goilz.dtn638667087453104065.jpg - 304 null image/jpeg 0.3179ms
+2024-11-13 13:39:23.183 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-11-13 13:39:23.192 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1\wwwroot\favicon.ico'
+2024-11-13 13:39:23.192 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 200 5430 image/x-icon 8.6028ms

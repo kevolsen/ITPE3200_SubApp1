@@ -1,0 +1,7 @@
+2024-12-01 16:46:00.950 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-01 16:46:01.053 +01:00 [WRN] Overriding address(es) 'http://localhost:5003'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-01 16:46:01.063 +01:00 [INF] Now listening on: https://localhost:5003
+2024-12-01 16:46:01.063 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-01 16:46:01.063 +01:00 [INF] Hosting environment: Development
+2024-12-01 16:46:01.071 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-01 16:51:13.302 +01:00 [INF] Application is shutting down...

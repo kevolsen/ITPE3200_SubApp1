@@ -1,0 +1,56 @@
+2024-11-30 16:09:41.526 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 16:09:41.616 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-30 16:09:41.618 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 16:09:41.618 +01:00 [INF] Hosting environment: Development
+2024-11-30 16:09:41.618 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-11-30 16:09:42.158 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-30 16:09:42.163 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-30 16:09:42.479 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 16:09:42.485 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 16:09:43.766 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 16:09:43.984 +01:00 [INF] Executed ViewResult - view Index executed in 1335.4941ms.
+2024-11-30 16:09:43.985 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1499.4122ms
+2024-11-30 16:09:43.985 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-30 16:09:43.989 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 1831.4604ms
+2024-11-30 16:09:44.000 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 16:09:44.000 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 16:09:44.008 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 8.4259ms
+2024-11-30 16:09:44.008 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 8.426ms
+2024-11-30 16:09:44.009 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 16:09:44.009 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 16:10:12.756 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-30 16:10:12.794 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 16:10:12.795 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 16:10:12.966 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-30 16:10:12.973 +01:00 [INF] Executed ViewResult - view Profile executed in 161.3901ms.
+2024-11-30 16:10:12.974 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 178.6726ms
+2024-11-30 16:10:12.974 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 16:10:12.974 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 217.3203ms
+2024-11-30 16:10:12.989 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 16:10:12.989 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 16:10:12.991 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.5682ms
+2024-11-30 16:10:12.991 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.0099ms
+2024-11-30 16:10:12.991 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 16:10:12.991 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 16:10:18.734 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - application/x-www-form-urlencoded 249
+2024-11-30 16:10:18.736 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-11-30 16:10:18.739 +01:00 [INF] Route matched with {action = "AddCommentProfile", controller = "Comment", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCommentProfile(Int32, System.String) on controller SubApp1.Controllers.CommentController (SubApp1).
+2024-11-30 16:10:18.797 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-11-30 16:10:18.797 +01:00 [INF] Executed action SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1) in 57.7395ms
+2024-11-30 16:10:18.797 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.CommentController.AddCommentProfile (SubApp1)'
+2024-11-30 16:10:18.797 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Comment/AddCommentProfile - 302 0 null 62.8638ms
+2024-11-30 16:10:18.799 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-30 16:10:18.801 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 16:10:18.801 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-30 16:10:18.804 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-30 16:10:18.805 +01:00 [INF] Executed ViewResult - view Profile executed in 1.5773ms.
+2024-11-30 16:10:18.805 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 3.687ms
+2024-11-30 16:10:18.805 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-30 16:10:18.805 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 5.9691ms
+2024-11-30 16:10:18.820 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-30 16:10:18.821 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-30 16:10:18.821 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 1.4982ms
+2024-11-30 16:10:18.821 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-30 16:10:18.822 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 1.1487ms
+2024-11-30 16:10:18.822 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-30 16:10:50.714 +01:00 [INF] Application is shutting down...

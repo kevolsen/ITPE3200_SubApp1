@@ -1,0 +1,215 @@
+2024-11-26 19:16:17.554 +01:00 [INF] User profile is available. Using 'C:\Users\fatta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 19:16:17.754 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 19:16:17.758 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 19:16:17.759 +01:00 [INF] Hosting environment: Development
+2024-11-26 19:16:17.759 +01:00 [INF] Content root path: C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1
+2024-11-26 19:16:22.722 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 19:16:22.738 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 19:16:23.670 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-26 19:16:23.672 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-26 19:16:23.673 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-26 19:16:23.673 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorRememberMe signed out.
+2024-11-26 19:16:23.677 +01:00 [INF] Identity.Application was not authenticated. Failure message: No principal.
+2024-11-26 19:16:23.713 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 19:16:23.723 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 19:16:26.456 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 19:16:27.049 +01:00 [INF] Executed ViewResult - view Index executed in 3171.5232ms.
+2024-11-26 19:16:27.051 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 3326.8678ms
+2024-11-26 19:16:27.051 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 19:16:27.059 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4339.2263ms
+2024-11-26 19:16:27.060 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-26 19:16:27.060 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:16:27.060 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:16:27.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 19:16:27.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:16:27.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 3.5288ms
+2024-11-26 19:16:27.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 4.2797ms
+2024-11-26 19:16:27.066 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:16:27.066 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:16:27.069 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-11-26 19:16:27.069 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 200 2788 text/css 8.9291ms
+2024-11-26 19:16:27.071 +01:00 [INF] Sending file. Request path: '/Images/quy2kjsl.44y638667085033516780.jpg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\quy2kjsl.44y638667085033516780.jpg'
+2024-11-26 19:16:27.071 +01:00 [INF] Sending file. Request path: '/Images/profile_mu1fu0qy.541638682352465422474.png'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\profile_mu1fu0qy.541638682352465422474.png'
+2024-11-26 19:16:27.071 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 200 54606 image/jpeg 10.7827ms
+2024-11-26 19:16:27.071 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 200 15320 image/png 11.827ms
+2024-11-26 19:16:27.075 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 19:16:27.083 +01:00 [INF] Sending file. Request path: '/Images/243xe4ho.h0i638682324223715764.png'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\243xe4ho.h0i638682324223715764.png'
+2024-11-26 19:16:27.083 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 200 436213 image/png 8.284ms
+2024-11-26 19:16:47.896 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - null null
+2024-11-26 19:16:48.353 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-26 19:16:48.549 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-26 19:16:48.577 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 19:16:48.579 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-26 19:16:48.580 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-26 19:16:48.583 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-26 19:16:48.583 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 19:16:48.823 +01:00 [INF] Executed page /Account/Login in 273.616ms
+2024-11-26 19:16:48.823 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-26 19:16:48.823 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Login - 200 null text/html; charset=utf-8 926.5782ms
+2024-11-26 19:16:48.829 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:16:48.829 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:16:48.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:16:48.830 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:16:48.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.5748ms
+2024-11-26 19:16:48.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.4849ms
+2024-11-26 19:16:48.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.7918ms
+2024-11-26 19:16:48.830 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:16:48.830 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:16:58.709 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Register?returnUrl=%2F - null null
+2024-11-26 19:16:59.087 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-26 19:16:59.093 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-26 19:16:59.161 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 19:16:59.162 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-26 19:16:59.162 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-26 19:16:59.162 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 19:16:59.175 +01:00 [INF] Executed page /Account/Register in 81.873ms
+2024-11-26 19:16:59.175 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-26 19:16:59.175 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Register?returnUrl=%2F - 200 null text/html; charset=utf-8 466.085ms
+2024-11-26 19:16:59.189 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:16:59.189 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:16:59.189 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.4131ms
+2024-11-26 19:16:59.190 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:16:59.190 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.3023ms
+2024-11-26 19:16:59.190 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:16:59.190 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:16:59.190 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.1934ms
+2024-11-26 19:16:59.190 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:17:16.667 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Register?returnUrl=%2F - application/x-www-form-urlencoded 272
+2024-11-26 19:17:16.667 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-26 19:17:16.667 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-26 19:17:16.692 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync - ModelState is "Valid"
+2024-11-26 19:17:16.922 +01:00 [INF] User created a new account with password.
+2024-11-26 19:17:16.960 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-26 19:17:16.961 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-26 19:17:16.961 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-26 19:17:16.962 +01:00 [INF] Executed page /Account/Register in 294.0487ms
+2024-11-26 19:17:16.962 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-26 19:17:16.962 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Register?returnUrl=%2F - 302 0 null 294.7575ms
+2024-11-26 19:17:16.966 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 19:17:16.969 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 19:17:16.969 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 19:17:16.976 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 19:17:16.981 +01:00 [INF] Executed ViewResult - view Index executed in 5.1339ms.
+2024-11-26 19:17:16.981 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 11.504ms
+2024-11-26 19:17:16.981 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 19:17:16.981 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 15.324ms
+2024-11-26 19:17:16.989 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:17:16.990 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:17:16.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.4173ms
+2024-11-26 19:17:16.990 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:17:16.993 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:17:16.993 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-11-26 19:17:16.993 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-11-26 19:17:16.993 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.4119ms
+2024-11-26 19:17:16.994 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-11-26 19:17:16.994 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-11-26 19:17:16.994 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 0.2072ms
+2024-11-26 19:17:16.995 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 4.7123ms
+2024-11-26 19:17:16.995 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:17:16.998 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-11-26 19:17:16.998 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-11-26 19:17:16.998 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.46ms
+2024-11-26 19:17:16.999 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 5.9697ms
+2024-11-26 19:17:16.999 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:17:26.382 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - null null
+2024-11-26 19:17:26.584 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-26 19:17:26.590 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-26 19:17:26.591 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 19:17:26.597 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 19:17:26.761 +01:00 [INF] Executed page /Account/Manage/Index in 171.1459ms
+2024-11-26 19:17:26.762 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-26 19:17:26.762 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - 200 null text/html; charset=utf-8 379.7645ms
+2024-11-26 19:17:26.773 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:17:26.773 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:17:26.773 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:17:26.773 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.5493ms
+2024-11-26 19:17:26.773 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:17:26.776 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.3422ms
+2024-11-26 19:17:26.776 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:17:26.780 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 6.9107ms
+2024-11-26 19:17:26.780 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:17:40.715 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Manage - multipart/form-data; boundary=----WebKitFormBoundaryEnMZYfdzCduS4Wyv 73039
+2024-11-26 19:17:40.720 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-26 19:17:40.721 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-26 19:17:40.741 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnPostAsync - ModelState is "Valid"
+2024-11-26 19:17:40.827 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-26 19:17:40.829 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2024-11-26 19:17:40.832 +01:00 [INF] Executing RedirectToPageResult, redirecting to null.
+2024-11-26 19:17:40.834 +01:00 [INF] Executed page /Account/Manage/Index in 113.7454ms
+2024-11-26 19:17:40.835 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-26 19:17:40.837 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Manage - 302 0 null 121.4861ms
+2024-11-26 19:17:40.845 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - null null
+2024-11-26 19:17:40.849 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-26 19:17:40.849 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-26 19:17:40.851 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 19:17:40.854 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 19:17:40.860 +01:00 [INF] Executed page /Account/Manage/Index in 10.7075ms
+2024-11-26 19:17:40.860 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-26 19:17:40.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - 200 null text/html; charset=utf-8 15.564ms
+2024-11-26 19:17:40.874 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:17:40.874 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:17:40.874 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:17:40.874 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:17:40.875 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.8686ms
+2024-11-26 19:17:40.878 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 4.7194ms
+2024-11-26 19:17:40.878 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 4.7172ms
+2024-11-26 19:17:40.879 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:17:40.879 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:17:43.947 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - null null
+2024-11-26 19:17:43.950 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-26 19:17:43.950 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-26 19:17:43.951 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-26 19:17:43.952 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-26 19:17:43.954 +01:00 [INF] Executed page /Account/Manage/Index in 3.8756ms
+2024-11-26 19:17:43.954 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-26 19:17:43.954 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Manage - 200 null text/html; charset=utf-8 7.3463ms
+2024-11-26 19:17:43.963 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:17:43.963 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:17:43.965 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.4171ms
+2024-11-26 19:17:43.965 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.4189ms
+2024-11-26 19:17:43.965 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:17:43.965 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:17:48.006 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 19:17:48.011 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 19:17:48.016 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 19:17:48.216 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 19:17:48.223 +01:00 [INF] Executed ViewResult - view Profile executed in 170.0122ms.
+2024-11-26 19:17:48.223 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 206.7686ms
+2024-11-26 19:17:48.223 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 19:17:48.223 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 217.489ms
+2024-11-26 19:17:48.233 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:17:48.233 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:17:48.236 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.805ms
+2024-11-26 19:17:48.236 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:17:48.242 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 8.9854ms
+2024-11-26 19:17:48.242 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:18:09.376 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryIqJJKxmmu0BK7xzA 396971
+2024-11-26 19:18:09.380 +01:00 [INF] Executing endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 19:18:09.382 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller PostController (SubApp1).
+2024-11-26 19:18:09.465 +01:00 [INF] Executing RedirectResult, redirecting to /Home/Profile.
+2024-11-26 19:18:09.465 +01:00 [INF] Executed action PostController.CreatePost (SubApp1) in 82.4109ms
+2024-11-26 19:18:09.465 +01:00 [INF] Executed endpoint 'PostController.CreatePost (SubApp1)'
+2024-11-26 19:18:09.466 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Post/CreatePost - 302 0 null 90.3058ms
+2024-11-26 19:18:09.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 19:18:09.478 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 19:18:09.478 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 19:18:09.480 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 19:18:09.483 +01:00 [INF] Executed ViewResult - view Profile executed in 2.6053ms.
+2024-11-26 19:18:09.483 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 4.7077ms
+2024-11-26 19:18:09.483 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 19:18:09.483 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 10.4768ms
+2024-11-26 19:18:09.496 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 19:18:09.496 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 19:18:09.496 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - null null
+2024-11-26 19:18:09.497 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 19:18:09.497 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 19:18:09.497 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 0.362ms
+2024-11-26 19:18:09.497 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - null null
+2024-11-26 19:18:09.500 +01:00 [INF] Sending file. Request path: '/Images/profile_mbauyjy1.jfz638682454607465969.jpeg'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\profile_mbauyjy1.jfz638682454607465969.jpeg'
+2024-11-26 19:18:09.500 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 4.1943ms
+2024-11-26 19:18:09.500 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mbauyjy1.jfz638682454607465969.jpeg - 200 72428 image/jpeg 4.1852ms
+2024-11-26 19:18:09.500 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 19:18:09.501 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 5.3349ms
+2024-11-26 19:18:09.501 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 19:18:09.511 +01:00 [INF] Sending file. Request path: '/Images/gk10c2mp.h5a638682454893997338.png'. Physical path: 'C:\Users\fatta\OneDrive\Dokumenter\Studie\Høst2024\ITPE3200Webapplikasjoner\Eksammen\CodeCraft\SubApp1\wwwroot\Images\gk10c2mp.h5a638682454893997338.png'
+2024-11-26 19:18:09.511 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/gk10c2mp.h5a638682454893997338.png - 200 396375 image/png 13.6135ms

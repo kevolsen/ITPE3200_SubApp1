@@ -1,0 +1,41 @@
+2024-11-22 18:09:51.156 +01:00 [INF] User profile is available. Using 'C:\Users\Thilo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-22 18:09:51.596 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-22 18:09:51.602 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 18:09:51.604 +01:00 [INF] Hosting environment: Development
+2024-11-22 18:09:51.604 +01:00 [INF] Content root path: C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1
+2024-11-22 18:12:19.075 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-22 18:12:19.107 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 18:12:19.184 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:12:19.224 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 18:12:25.108 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-22 18:12:25.763 +01:00 [INF] Executed ViewResult - view Index executed in 5404.0173ms.
+2024-11-22 18:12:25.767 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 6541.6964ms
+2024-11-22 18:12:25.767 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:12:25.785 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 18:12:25.790 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 6718.6311ms
+2024-11-22 18:12:25.790 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 18:12:25.792 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-22 18:12:25.793 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.2312ms
+2024-11-22 18:12:25.795 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 4.077ms
+2024-11-22 18:12:25.795 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 18:12:25.795 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 18:12:25.800 +01:00 [INF] The file /css/site.css was not modified
+2024-11-22 18:12:25.801 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 8.9286ms
+2024-11-22 18:12:29.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Signup - null null
+2024-11-22 18:12:29.745 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.signup (SubApp1)'
+2024-11-22 18:12:29.752 +01:00 [INF] Route matched with {action = "signup", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult signup() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 18:12:30.054 +01:00 [INF] Executing ViewResult, running view signup.
+2024-11-22 18:12:30.075 +01:00 [INF] Executed ViewResult - view signup executed in 287.0186ms.
+2024-11-22 18:12:30.075 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.signup (SubApp1) in 322.9993ms
+2024-11-22 18:12:30.075 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.signup (SubApp1)'
+2024-11-22 18:12:30.076 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Signup - 200 null text/html; charset=utf-8 332.9514ms
+2024-11-22 18:12:30.094 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 18:12:30.095 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.7544ms
+2024-11-22 18:12:30.096 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 18:12:30.103 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Signup.css - null null
+2024-11-22 18:12:30.105 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 18:12:30.105 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Signup.css - 404 0 null 2.4869ms
+2024-11-22 18:12:30.105 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Home/Signup.css, Response status code: 404
+2024-11-22 18:12:30.105 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.5339ms
+2024-11-22 18:12:30.106 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 18:32:40.018 +01:00 [INF] Application is shutting down...

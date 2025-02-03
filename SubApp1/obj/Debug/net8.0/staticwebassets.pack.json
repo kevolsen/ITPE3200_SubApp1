@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SubApp1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SubApp1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\243xe4ho.h0i638682324223715764.png",
+      "PackagePath": "staticwebassets\\Images\\243xe4ho.h0i638682324223715764.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\2tagq5dk.e3e638682619356161948.jpg",
+      "PackagePath": "staticwebassets\\Images\\2tagq5dk.e3e638682619356161948.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\3noxsp4c.eki638682509447789953.jpeg",
+      "PackagePath": "staticwebassets\\Images\\3noxsp4c.eki638682509447789953.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\4il5bdqm.ugy638682608870721039.jpeg",
+      "PackagePath": "staticwebassets\\Images\\4il5bdqm.ugy638682608870721039.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\Somi.jpg",
+      "PackagePath": "staticwebassets\\Images\\Somi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\Somi1.png",
+      "PackagePath": "staticwebassets\\Images\\Somi1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\ce5sirlj.hpf638682508187509210.jpg",
+      "PackagePath": "staticwebassets\\Images\\ce5sirlj.hpf638682508187509210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\crleu1db.f4x638667573705030264.png",
+      "PackagePath": "staticwebassets\\Images\\crleu1db.f4x638667573705030264.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\default-profile.jpg",
+      "PackagePath": "staticwebassets\\Images\\default-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\ejs4zjtc.c0s.png",
+      "PackagePath": "staticwebassets\\Images\\ejs4zjtc.c0s.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\fk4nyxhj.0dh.png",
+      "PackagePath": "staticwebassets\\Images\\fk4nyxhj.0dh.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\gk10c2mp.h5a638682454893997338.png",
+      "PackagePath": "staticwebassets\\Images\\gk10c2mp.h5a638682454893997338.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\h3uovd0t.1tf.png",
+      "PackagePath": "staticwebassets\\Images\\h3uovd0t.1tf.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\iw2ux2vw.hvp638683237138508018.jpg",
+      "PackagePath": "staticwebassets\\Images\\iw2ux2vw.hvp638683237138508018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\kl4goilz.dtn638667087453104065.jpg",
+      "PackagePath": "staticwebassets\\Images\\kl4goilz.dtn638667087453104065.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\kpynczpz.cmb638682587972582250.jpeg",
+      "PackagePath": "staticwebassets\\Images\\kpynczpz.cmb638682587972582250.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\l2mv4hja.tte.png",
+      "PackagePath": "staticwebassets\\Images\\l2mv4hja.tte.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\nsmd5fi2.thl638682508897864419.jpeg",
+      "PackagePath": "staticwebassets\\Images\\nsmd5fi2.thl638682508897864419.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_kal4u0qo.imj638685969022715672.jpg",
+      "PackagePath": "staticwebassets\\Images\\profile_kal4u0qo.imj638685969022715672.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_mbauyjy1.jfz638682454607465969.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profile_mbauyjy1.jfz638682454607465969.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_mu1fu0qy.541638682352465422474.png",
+      "PackagePath": "staticwebassets\\Images\\profile_mu1fu0qy.541638682352465422474.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_sjfsw30b.2jx638687205715419883.png",
+      "PackagePath": "staticwebassets\\Images\\profile_sjfsw30b.2jx638687205715419883.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_trdj0qvw.t0y638685234780193273.png",
+      "PackagePath": "staticwebassets\\Images\\profile_trdj0qvw.t0y638685234780193273.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\profile_zptbn0nj.mhn638685237669650945.png",
+      "PackagePath": "staticwebassets\\Images\\profile_zptbn0nj.mhn638685237669650945.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\quy2kjsl.44y638667085033516780.jpg",
+      "PackagePath": "staticwebassets\\Images\\quy2kjsl.44y638667085033516780.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\tmtoo5p3.1jb638682640630138715.jpg",
+      "PackagePath": "staticwebassets\\Images\\tmtoo5p3.1jb638682640630138715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\Images\\w2s15e1o.fgz.png",
+      "PackagePath": "staticwebassets\\Images\\w2s15e1o.fgz.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\uploads\\Screenshot 2024-11-11 065326.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-11-11 065326.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\uploads\\Somi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Somi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\uploads\\Somi1.png",
+      "PackagePath": "staticwebassets\\uploads\\Somi1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kevol\\Desktop\\GitHub\\CodeCraft\\SubApp1\\wwwroot\\uploads\\img.1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\img.1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SubApp1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SubApp1.props",
+      "PackagePath": "build\\SubApp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SubApp1.props",
+      "PackagePath": "buildMultiTargeting\\SubApp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SubApp1.props",
+      "PackagePath": "buildTransitive\\SubApp1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

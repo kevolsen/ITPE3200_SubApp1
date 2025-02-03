@@ -1,0 +1,57 @@
+2024-11-26 14:57:58.628 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 14:57:58.853 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-26 14:57:58.857 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 14:57:58.858 +01:00 [INF] Hosting environment: Development
+2024-11-26 14:57:58.858 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\github\CodeCraft\SubApp1
+2024-11-26 14:58:05.266 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-26 14:58:05.285 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-26 14:58:06.008 +01:00 [WRN] The foreign key property 'Post.UserId1' was created in shadow state because a conflicting property with the simple name 'UserId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-26 14:58:06.234 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 14:58:06.249 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 14:58:08.801 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 14:58:09.367 +01:00 [INF] Executed ViewResult - view Index executed in 3111.0421ms.
+2024-11-26 14:58:09.370 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 3120.3212ms
+2024-11-26 14:58:09.370 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-26 14:58:09.381 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 4117.2335ms
+2024-11-26 14:58:09.395 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-26 14:58:09.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-26 14:58:09.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-11-26 14:58:09.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 14:58:09.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 14:58:09.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - null null
+2024-11-26 14:58:09.400 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-26 14:58:09.400 +01:00 [INF] The file /css/site.css was not modified
+2024-11-26 14:58:09.400 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-26 14:58:09.400 +01:00 [INF] The file /SubApp1.styles.css was not modified
+2024-11-26 14:58:09.401 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 304 null text/css 4.6489ms
+2024-11-26 14:58:09.401 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 4.6501ms
+2024-11-26 14:58:09.401 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 6.0696ms
+2024-11-26 14:58:09.401 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/jquery/dist/jquery.min.js - 304 null text/javascript 4.1539ms
+2024-11-26 14:58:09.402 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-26 14:58:09.402 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-26 14:58:09.402 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-26 14:58:09.402 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 0.5695ms
+2024-11-26 14:58:09.402 +01:00 [INF] The file /js/site.js was not modified
+2024-11-26 14:58:09.402 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.6558ms
+2024-11-26 14:58:09.425 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 28.6155ms
+2024-11-26 14:58:09.425 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 28.5904ms
+2024-11-26 14:58:09.427 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 14:58:09.427 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 14:58:11.890 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-26 14:58:11.963 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 14:58:11.965 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-26 14:58:12.577 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-26 14:58:12.587 +01:00 [INF] Executed ViewResult - view Profile executed in 310.9995ms.
+2024-11-26 14:58:12.588 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 621.9827ms
+2024-11-26 14:58:12.588 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-26 14:58:12.588 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 698.5421ms
+2024-11-26 14:58:12.624 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-26 14:58:12.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/path/to/default/image - null null
+2024-11-26 14:58:12.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-26 14:58:12.629 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 4.9868ms
+2024-11-26 14:58:12.630 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-26 14:58:12.632 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 5.9635ms
+2024-11-26 14:58:12.633 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/path/to/default/image - 404 0 null 6.129ms
+2024-11-26 14:58:12.633 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-26 14:58:12.633 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Home/path/to/default/image, Response status code: 404
+2024-11-26 15:02:25.691 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,116 @@
+2024-12-02 02:06:23.400 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 02:06:23.491 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 02:06:23.493 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 02:06:23.493 +01:00 [INF] Hosting environment: Development
+2024-12-02 02:06:23.493 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 02:08:16.636 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 02:08:16.641 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 02:08:16.960 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 02:08:16.966 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:08:18.197 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - null null
+2024-12-02 02:08:18.303 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-12-02 02:08:18.308 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 02:08:18.367 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-12-02 02:08:18.370 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 02:08:18.370 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 02:08:18.513 +01:00 [INF] Executed page /Account/Logout in 145.4126ms
+2024-12-02 02:08:18.513 +01:00 [INF] Executed ViewResult - view Profile executed in 1373.1944ms.
+2024-12-02 02:08:18.513 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-12-02 02:08:18.514 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1547.3488ms
+2024-12-02 02:08:18.514 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 02:08:18.517 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Identity/Account/Logout?returnUrl=%2F - 200 null text/html; charset=utf-8 319.7427ms
+2024-12-02 02:08:18.517 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1882.2656ms
+2024-12-02 02:08:18.538 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 02:08:18.540 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 02:08:18.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 2.3324ms
+2024-12-02 02:08:18.653 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-12-02 02:08:18.653 +01:00 [INF] The file /favicon.ico was not modified
+2024-12-02 02:08:18.653 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 304 null image/x-icon 0.4861ms
+2024-12-02 02:08:19.486 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F%3Fpage%3D%252F - application/x-www-form-urlencoded 225
+2024-12-02 02:08:19.522 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-12-02 02:08:19.522 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-12-02 02:08:19.529 +01:00 [INF] Executing handler method SubApp1.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-12-02 02:08:19.531 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-12-02 02:08:19.531 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 02:08:19.531 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-12-02 02:08:19.531 +01:00 [INF] User logged out.
+2024-12-02 02:08:19.531 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 02:08:19.532 +01:00 [INF] Executing LocalRedirectResult, redirecting to /?page=%2F.
+2024-12-02 02:08:19.532 +01:00 [INF] Executed page /Account/Logout in 9.3932ms
+2024-12-02 02:08:19.532 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-12-02 02:08:19.532 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/Identity/Account/Logout?returnUrl=%2F%3Fpage%3D%252F - 302 0 null 45.9081ms
+2024-12-02 02:08:19.534 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/?page=%2F - null null
+2024-12-02 02:08:19.534 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:19.535 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:08:19.717 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:08:19.723 +01:00 [INF] Executed ViewResult - view Index executed in 175.7148ms.
+2024-12-02 02:08:19.723 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 187.6298ms
+2024-12-02 02:08:19.723 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:19.723 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/?page=%2F - 200 null text/html; charset=utf-8 188.8881ms
+2024-12-02 02:08:19.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - null null
+2024-12-02 02:08:19.743 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - 404 0 null 0.5186ms
+2024-12-02 02:08:19.744 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png%20, Response status code: 404
+2024-12-02 02:08:19.755 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - null null
+2024-12-02 02:08:19.755 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - null null
+2024-12-02 02:08:19.755 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - 404 0 null 0.2444ms
+2024-12-02 02:08:19.755 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - 404 0 null 0.1968ms
+2024-12-02 02:08:19.755 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg%20, Response status code: 404
+2024-12-02 02:08:19.755 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png%20, Response status code: 404
+2024-12-02 02:08:19.756 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - null null
+2024-12-02 02:08:19.756 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - 404 0 null 0.1157ms
+2024-12-02 02:08:19.756 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg%20, Response status code: 404
+2024-12-02 02:08:28.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:08:28.586 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:28.587 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:08:28.591 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:08:28.592 +01:00 [INF] Executed ViewResult - view Index executed in 1.1452ms.
+2024-12-02 02:08:28.592 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 5.3388ms
+2024-12-02 02:08:28.592 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:28.592 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 5.9368ms
+2024-12-02 02:08:28.619 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - null null
+2024-12-02 02:08:28.619 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - 404 0 null 0.2098ms
+2024-12-02 02:08:28.619 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png%20, Response status code: 404
+2024-12-02 02:08:28.622 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - null null
+2024-12-02 02:08:28.622 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - 404 0 null 0.2631ms
+2024-12-02 02:08:28.622 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg%20, Response status code: 404
+2024-12-02 02:08:28.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - null null
+2024-12-02 02:08:28.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - 404 0 null 0.1884ms
+2024-12-02 02:08:28.626 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - null null
+2024-12-02 02:08:28.626 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png%20, Response status code: 404
+2024-12-02 02:08:28.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - 404 0 null 0.1446ms
+2024-12-02 02:08:28.626 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg%20, Response status code: 404
+2024-12-02 02:08:49.860 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:08:49.860 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:49.860 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:08:50.026 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:08:50.030 +01:00 [INF] Executed ViewResult - view Index executed in 167.2169ms.
+2024-12-02 02:08:50.030 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 169.7901ms
+2024-12-02 02:08:50.030 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:50.030 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 170.4777ms
+2024-12-02 02:08:50.046 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - null null
+2024-12-02 02:08:50.046 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - 404 0 null 0.2069ms
+2024-12-02 02:08:50.046 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png%20, Response status code: 404
+2024-12-02 02:08:50.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - null null
+2024-12-02 02:08:50.048 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - 404 0 null 0.1919ms
+2024-12-02 02:08:50.048 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg%20, Response status code: 404
+2024-12-02 02:08:50.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - null null
+2024-12-02 02:08:50.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - null null
+2024-12-02 02:08:50.055 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg ?? - 404 0 null 0.1665ms
+2024-12-02 02:08:50.055 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png ?? - 404 0 null 0.1666ms
+2024-12-02 02:08:50.055 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg%20, Response status code: 404
+2024-12-02 02:08:50.055 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png%20, Response status code: 404
+2024-12-02 02:08:50.056 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - null null
+2024-12-02 02:08:50.056 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - null null
+2024-12-02 02:08:50.057 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg ?? - 404 0 null 0.0862ms
+2024-12-02 02:08:50.057 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png ?? - 404 0 null 0.0778ms
+2024-12-02 02:08:50.057 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_zptbn0nj.mhn638685237669650945.png%20, Response status code: 404
+2024-12-02 02:08:50.057 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg%20, Response status code: 404
+2024-12-02 02:08:59.888 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 02:08:59.888 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:59.888 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 02:08:59.969 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 02:08:59.973 +01:00 [INF] Executed ViewResult - view Index executed in 82.8124ms.
+2024-12-02 02:08:59.973 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 85.222ms
+2024-12-02 02:08:59.973 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 02:08:59.973 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 85.6461ms
+2024-12-02 02:09:08.171 +01:00 [INF] Application is shutting down...

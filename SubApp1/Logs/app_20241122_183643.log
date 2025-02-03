@@ -1,0 +1,118 @@
+2024-11-22 18:36:44.419 +01:00 [INF] User profile is available. Using 'C:\Users\Thilo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-22 18:36:44.863 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-22 18:36:44.871 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 18:36:44.873 +01:00 [INF] Hosting environment: Development
+2024-11-22 18:36:44.873 +01:00 [INF] Content root path: C:\Users\Thilo\OneDrive\Dokumenter\GitHub\CodeCraft\SubApp1
+2024-11-22 18:39:56.308 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-22 18:39:56.322 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 18:39:56.415 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:39:56.440 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 18:40:01.158 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-22 18:40:01.794 +01:00 [INF] Executed ViewResult - view Index executed in 4549.8179ms.
+2024-11-22 18:40:01.799 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 5358.9768ms
+2024-11-22 18:40:01.800 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:40:01.811 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 18:40:01.812 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 18:40:01.817 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 3.8739ms
+2024-11-22 18:40:01.817 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 5.5604ms
+2024-11-22 18:40:01.819 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 18:40:01.819 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 18:40:01.825 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 5520.1934ms
+2024-11-22 18:40:13.748 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Signup - null null
+2024-11-22 18:40:13.766 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.signup (SubApp1)'
+2024-11-22 18:40:13.782 +01:00 [INF] Route matched with {action = "signup", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult signup() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 18:40:14.187 +01:00 [INF] Executing ViewResult, running view signup.
+2024-11-22 18:40:14.196 +01:00 [INF] Executed ViewResult - view signup executed in 332.7591ms.
+2024-11-22 18:40:14.196 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.signup (SubApp1) in 414.1364ms
+2024-11-22 18:40:14.196 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.signup (SubApp1)'
+2024-11-22 18:40:14.196 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Signup - 200 null text/html; charset=utf-8 449.1377ms
+2024-11-22 18:40:14.215 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 18:40:14.216 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 18:40:14.216 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Signup.css - null null
+2024-11-22 18:40:14.216 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.9687ms
+2024-11-22 18:40:14.216 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.4612ms
+2024-11-22 18:40:14.217 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 18:40:14.217 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 18:40:14.218 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Signup.css - 404 0 null 2.6742ms
+2024-11-22 18:40:14.219 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/Home/Signup.css, Response status code: 404
+2024-11-22 18:40:34.060 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/User/Login - application/x-www-form-urlencoded 230
+2024-11-22 18:40:34.061 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.UserController.Login (SubApp1)'
+2024-11-22 18:40:34.091 +01:00 [INF] Route matched with {action = "Login", controller = "User", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller SubApp1.Controllers.UserController (SubApp1).
+2024-11-22 18:40:34.470 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-22 18:40:34.479 +01:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/User/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2024-11-22 18:40:34.483 +01:00 [INF] Executed action SubApp1.Controllers.UserController.Login (SubApp1) in 391.7717ms
+2024-11-22 18:40:34.483 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.UserController.Login (SubApp1)'
+2024-11-22 18:40:34.493 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-22 18:40:34.519 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/User/Login - 500 null text/html; charset=utf-8 459.7053ms
+2024-11-22 18:48:00.464 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-22 18:48:00.465 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:48:00.466 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-22 18:48:00.477 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-22 18:48:00.480 +01:00 [INF] Executed ViewResult - view Index executed in 3.6972ms.
+2024-11-22 18:48:00.480 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 14.6074ms
+2024-11-22 18:48:00.480 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-22 18:48:00.481 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 16.2802ms
+2024-11-22 18:48:00.602 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-22 18:48:00.602 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - null null
+2024-11-22 18:48:00.602 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 0.6195ms
+2024-11-22 18:48:00.603 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-22 18:48:00.603 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-22 18:48:00.603 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 0.5223ms
+2024-11-22 18:48:00.604 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-22 18:48:00.613 +01:00 [INF] The file /css/site.css was not modified
+2024-11-22 18:48:00.613 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=IX3HhC0Qb_wvNR76iq6-WPDnaYZOlvu4jaLxaL9WBe8 - 304 null text/css 11.4305ms
+2024-11-22 18:48:09.077 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5003/User/Login - application/x-www-form-urlencoded 226
+2024-11-22 18:48:09.078 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.UserController.Login (SubApp1)'
+2024-11-22 18:48:09.078 +01:00 [INF] Route matched with {action = "Login", controller = "User", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller SubApp1.Controllers.UserController (SubApp1).
+2024-11-22 18:48:09.096 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-22 18:48:09.100 +01:00 [ERR] The view 'Login' was not found. Searched locations: ["/Views/User/Login.cshtml","/Views/Shared/Login.cshtml","/Pages/Shared/Login.cshtml"]
+2024-11-22 18:48:09.101 +01:00 [INF] Executed action SubApp1.Controllers.UserController.Login (SubApp1) in 22.6276ms
+2024-11-22 18:48:09.102 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.UserController.Login (SubApp1)'
+2024-11-22 18:48:09.106 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/User/Login.cshtml
+/Views/Shared/Login.cshtml
+/Pages/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-22 18:48:09.114 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5003/User/Login - 500 null text/html; charset=utf-8 36.9846ms

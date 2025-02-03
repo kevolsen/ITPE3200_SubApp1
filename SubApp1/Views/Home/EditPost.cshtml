@@ -1,0 +1,24 @@
+@model SubApp1.Models.Post
+
+@{
+    ViewData["Title"] = "Edit Post";
+}
+
+<h2>Edit Post</h2>
+
+<!-- Form to edit an existing post -->
+<form asp-action="EditPost" asp-controller="Post" method="post" enctype="multipart/form-data">
+    <!-- Hidden input to store the post ID -->
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <!-- Textarea for editing the post content -->
+    <label for="post-content">Content:</label>
+    <textarea id="post-content" name="PostContent">@Model.Content</textarea>
+
+    <!-- File input for uploading a new image -->
+    <label for="post-image">Upload New Image:</label>
+    <input type="file" id="post-image" name="PostImage" accept="image/*" />
+
+    <!-- Submit button to save changes -->
+    <button type="submit">Save Changes</button>
+</form>

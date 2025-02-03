@@ -1,0 +1,44 @@
+2024-12-02 01:54:21.977 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:54:22.065 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:54:22.067 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:54:22.067 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:54:22.067 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 01:54:23.774 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:54:23.779 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 01:54:24.229 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:54:24.235 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:54:26.074 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:54:26.310 +01:00 [INF] Executed ViewResult - view Profile executed in 1903.7288ms.
+2024-12-02 01:54:26.311 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 2075.6666ms
+2024-12-02 01:54:26.311 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:54:26.315 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 2542.0609ms
+2024-12-02 01:54:26.333 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 01:54:26.335 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 01:54:26.335 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 2.2033ms
+2024-12-02 01:54:26.803 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/favicon.ico - null null
+2024-12-02 01:54:26.803 +01:00 [INF] The file /favicon.ico was not modified
+2024-12-02 01:54:26.804 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/favicon.ico - 304 null image/x-icon 0.4482ms
+2024-12-02 01:54:27.709 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-12-02 01:54:27.717 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 01:54:27.718 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:54:27.855 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 01:54:27.861 +01:00 [INF] Executed ViewResult - view Index executed in 133.6291ms.
+2024-12-02 01:54:27.861 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 143.6173ms
+2024-12-02 01:54:27.861 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-12-02 01:54:27.862 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 152.2947ms
+2024-12-02 01:54:27.883 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - null null
+2024-12-02 01:54:27.883 +01:00 [INF] The file /Images/profile_kal4u0qo.imj638685969022715672.jpg was not modified
+2024-12-02 01:54:27.883 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_kal4u0qo.imj638685969022715672.jpg - 304 null image/jpeg 0.3999ms
+2024-12-02 01:54:27.884 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - null null
+2024-12-02 01:54:27.885 +01:00 [INF] The file /Images/ejs4zjtc.c0s.png was not modified
+2024-12-02 01:54:27.885 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/ejs4zjtc.c0s.png - 304 null image/png 0.2425ms
+2024-12-02 01:54:27.888 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - null null
+2024-12-02 01:54:27.888 +01:00 [INF] The file /Images/profile_mu1fu0qy.541638682352465422474.png was not modified
+2024-12-02 01:54:27.888 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/profile_mu1fu0qy.541638682352465422474.png - 304 null image/png 0.3181ms
+2024-12-02 01:54:27.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - null null
+2024-12-02 01:54:27.889 +01:00 [INF] The file /Images/243xe4ho.h0i638682324223715764.png was not modified
+2024-12-02 01:54:27.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - null null
+2024-12-02 01:54:27.890 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/243xe4ho.h0i638682324223715764.png - 304 null image/png 0.204ms
+2024-12-02 01:54:27.890 +01:00 [INF] The file /Images/quy2kjsl.44y638667085033516780.jpg was not modified
+2024-12-02 01:54:27.890 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Images/quy2kjsl.44y638667085033516780.jpg - 304 null image/jpeg 0.1889ms
+2024-12-02 01:54:37.168 +01:00 [INF] Application is shutting down...

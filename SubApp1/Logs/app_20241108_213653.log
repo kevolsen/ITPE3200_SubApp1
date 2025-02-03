@@ -1,0 +1,14 @@
+2024-11-08 21:36:53.881 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-08 21:36:54.007 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-08 21:36:54.010 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-08 21:36:54.011 +01:00 [INF] Hosting environment: Development
+2024-11-08 21:36:54.012 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1
+2024-11-08 21:36:54.113 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-08 21:36:54.119 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-08 21:36:54.134 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:36:54.148 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 21:36:55.731 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-08 21:36:55.903 +01:00 [INF] Executed ViewResult - view Index executed in 1393.0147ms.
+2024-11-08 21:36:55.904 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1755.4327ms
+2024-11-08 21:36:55.904 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:36:55.908 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 1796.3047ms

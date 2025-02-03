@@ -1,0 +1,6 @@
+2024-12-02 01:57:12.795 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:57:12.883 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:57:12.884 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:57:12.885 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:57:12.885 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 02:02:47.777 +01:00 [INF] Application is shutting down...

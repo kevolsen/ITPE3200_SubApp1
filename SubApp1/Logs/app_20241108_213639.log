@@ -1,0 +1,31 @@
+2024-11-08 21:36:39.389 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-08 21:36:39.522 +01:00 [INF] Now listening on: http://localhost:5003
+2024-11-08 21:36:39.524 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-08 21:36:39.526 +01:00 [INF] Hosting environment: Development
+2024-11-08 21:36:39.526 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft1\CodeCraft\SubApp1
+2024-11-08 21:36:39.606 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-11-08 21:36:39.614 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-08 21:36:39.629 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:36:39.644 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 21:36:41.196 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-08 21:36:41.283 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-11-08 21:36:41.284 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 21:36:41.285 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-11-08 21:36:41.381 +01:00 [INF] Executed ViewResult - view Index executed in 1375.3861ms.
+2024-11-08 21:36:41.382 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 1738.1629ms
+2024-11-08 21:36:41.382 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-11-08 21:36:41.386 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 200 null text/html; charset=utf-8 1781.3203ms
+2024-11-08 21:36:41.516 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-11-08 21:36:41.525 +01:00 [INF] Executed ViewResult - view Profile executed in 121.0482ms.
+2024-11-08 21:36:41.525 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 240.2566ms
+2024-11-08 21:36:41.525 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-11-08 21:36:41.525 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 242.5794ms
+2024-11-08 21:36:41.539 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - null null
+2024-11-08 21:36:41.540 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - null null
+2024-11-08 21:36:41.540 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=XDHUJAD6Pr_Zu4WLmNevZxkHZwHat8-SrXTtKtIdQi0 - null null
+2024-11-08 21:36:41.542 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/jquery.min.js - 404 0 null 2.2772ms
+2024-11-08 21:36:41.542 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/js/bootstrap.js - 404 0 null 2.8884ms
+2024-11-08 21:36:41.543 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/jquery.min.js, Response status code: 404
+2024-11-08 21:36:41.543 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5003/js/bootstrap.js, Response status code: 404
+2024-11-08 21:36:41.544 +01:00 [INF] The file /css/site.css was not modified
+2024-11-08 21:36:41.544 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=XDHUJAD6Pr_Zu4WLmNevZxkHZwHat8-SrXTtKtIdQi0 - 304 null text/css 4.3039ms

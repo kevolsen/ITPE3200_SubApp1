@@ -1,0 +1,64 @@
+2024-10-29 14:36:59.691 +01:00 [INF] User profile is available. Using 'C:\Users\Kristian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-29 14:36:59.847 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-29 14:36:59.885 +01:00 [INF] Now listening on: https://localhost:7262
+2024-10-29 14:36:59.886 +01:00 [INF] Now listening on: http://localhost:5003
+2024-10-29 14:36:59.890 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 14:36:59.892 +01:00 [INF] Hosting environment: Development
+2024-10-29 14:36:59.893 +01:00 [INF] Content root path: C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1
+2024-10-29 14:36:59.996 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/ - null null
+2024-10-29 14:37:00.022 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/ - 307 0 null 20.4396ms
+2024-10-29 14:37:08.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/ - null null
+2024-10-29 14:37:08.515 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-10-29 14:37:08.534 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-10-29 14:37:08.541 +01:00 [INF] Executing ViewResult, running view Index.
+2024-10-29 14:37:08.589 +01:00 [INF] Executed ViewResult - view Index executed in 49.6524ms.
+2024-10-29 14:37:08.592 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Index (SubApp1) in 55.3409ms
+2024-10-29 14:37:08.592 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Index (SubApp1)'
+2024-10-29 14:37:08.603 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/ - 200 null text/html; charset=utf-8 99.7195ms
+2024-10-29 14:37:08.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-10-29 14:37:08.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/js/bootstrap.js - null null
+2024-10-29 14:37:08.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/js/jquery.min.js - null null
+2024-10-29 14:37:08.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - null null
+2024-10-29 14:37:08.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - null null
+2024-10-29 14:37:08.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-10-29 14:37:08.621 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/lib/jquery/dist/jquery.min.js - null null
+2024-10-29 14:37:08.625 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-10-29 14:37:08.660 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/js/bootstrap.js - 404 0 null 41.645ms
+2024-10-29 14:37:08.660 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/js/jquery.min.js - 404 0 null 41.6148ms
+2024-10-29 14:37:08.668 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7262/js/bootstrap.js, Response status code: 404
+2024-10-29 14:37:08.668 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7262/js/jquery.min.js, Response status code: 404
+2024-10-29 14:37:08.684 +01:00 [INF] Sending file. Request path: '/SubApp1.styles.css'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\obj\Debug\net8.0\scopedcss\bundle\SubApp1.styles.css'
+2024-10-29 14:37:08.684 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\js\site.js'
+2024-10-29 14:37:08.685 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\css\site.css'
+2024-10-29 14:37:08.685 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/SubApp1.styles.css?v=Sj13-RJCpeuwLSSZn5pveHertSYZb1e9rwkvuFa81K0 - 200 1758 text/css 66.0035ms
+2024-10-29 14:37:08.685 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/css/site.css?v=yRiy6K16l33Eow_oVxhpA8XuSoMpAlQbAI2Xwjja8As - 200 2890 text/css 66.1612ms
+2024-10-29 14:37:08.685 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 60.0588ms
+2024-10-29 14:37:08.702 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-10-29 14:37:08.702 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-10-29 14:37:08.702 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-10-29 14:37:08.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 82.8384ms
+2024-10-29 14:37:08.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 83.7219ms
+2024-10-29 14:37:08.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 82.5041ms
+2024-10-29 14:37:08.875 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/favicon.ico - null null
+2024-10-29 14:37:08.877 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Kristian\Documents\GitHub\CodeCraft\SubApp1\wwwroot\favicon.ico'
+2024-10-29 14:37:08.877 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/favicon.ico - 200 5430 image/x-icon 2.3605ms
+2024-10-29 14:39:51.318 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/Home/Profile - null null
+2024-10-29 14:39:51.324 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-10-29 14:39:51.325 +01:00 [INF] Route matched with {action = "Profile", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-10-29 14:39:51.326 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-10-29 14:39:51.341 +01:00 [INF] Executed ViewResult - view Profile executed in 16.1742ms.
+2024-10-29 14:39:51.342 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 17.0654ms
+2024-10-29 14:39:51.342 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-10-29 14:39:51.342 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/Home/Profile - 200 null text/html; charset=utf-8 24.0115ms
+2024-10-29 14:39:51.357 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/js/bootstrap.js - null null
+2024-10-29 14:39:51.357 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7262/js/jquery.min.js - null null
+2024-10-29 14:39:51.358 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/js/bootstrap.js - 404 0 null 0.5578ms
+2024-10-29 14:39:51.358 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7262/js/jquery.min.js - 404 0 null 0.5548ms
+2024-10-29 14:39:51.358 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7262/js/bootstrap.js, Response status code: 404
+2024-10-29 14:39:51.358 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7262/js/jquery.min.js, Response status code: 404
+2024-10-29 14:40:00.178 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7262/Profile/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryqcBDPgMqdp27CpGl 573
+2024-10-29 14:40:00.179 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.ProfileController.CreatePost (SubApp1)'
+2024-10-29 14:40:00.184 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Profile"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost(System.String, Microsoft.AspNetCore.Http.IFormFile) on controller SubApp1.Controllers.ProfileController (SubApp1).
+2024-10-29 14:40:00.801 +01:00 [INF] [ItemController] Item list not found while executing _itemRepository.GetAll()
+2024-10-29 14:40:00.804 +01:00 [WRN] [ItemController] Item list not found while executing _itemRepository.GetAll()
+2024-10-29 14:40:00.805 +01:00 [ERR] [ItemController] Item list not found while executing _itemRepository.GetAll()

@@ -1,0 +1,18 @@
+2024-12-02 01:49:27.907 +01:00 [INF] User profile is available. Using 'C:\Users\Kevol\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 01:49:27.995 +01:00 [INF] Now listening on: http://localhost:5003
+2024-12-02 01:49:27.997 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 01:49:27.997 +01:00 [INF] Hosting environment: Development
+2024-12-02 01:49:27.997 +01:00 [INF] Content root path: C:\Users\Kevol\Desktop\GitHub\CodeCraft\SubApp1
+2024-12-02 01:50:22.700 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/Home/Profile - null null
+2024-12-02 01:50:22.707 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-02 01:50:23.019 +01:00 [INF] Executing endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:50:23.025 +01:00 [INF] Route matched with {action = "Profile", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller SubApp1.Controllers.HomeController (SubApp1).
+2024-12-02 01:50:24.309 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-12-02 01:50:24.529 +01:00 [INF] Executed ViewResult - view Profile executed in 1337.713ms.
+2024-12-02 01:50:24.530 +01:00 [INF] Executed action SubApp1.Controllers.HomeController.Profile (SubApp1) in 1504.8585ms
+2024-12-02 01:50:24.530 +01:00 [INF] Executed endpoint 'SubApp1.Controllers.HomeController.Profile (SubApp1)'
+2024-12-02 01:50:24.533 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/Home/Profile - 200 null text/html; charset=utf-8 1833.7872ms
+2024-12-02 01:50:24.544 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - null null
+2024-12-02 01:50:24.545 +01:00 [INF] The file /css/site.css was not modified
+2024-12-02 01:50:24.546 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5003/css/site.css?v=pV67Zt3krVG2zUHMn5fk6N80QRMweT6IUpYpfyn4RSw - 304 null text/css 1.9434ms
+2024-12-02 01:51:31.968 +01:00 [INF] Application is shutting down...
